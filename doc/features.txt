@@ -1,0 +1,7 @@
+Version 1.0
+
+Sign Up
+Login/Logout
+Add Task
+Mark Tast as Done
+View Unfinished Tasks

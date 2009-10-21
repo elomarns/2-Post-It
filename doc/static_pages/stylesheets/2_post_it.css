@@ -1,0 +1,118 @@
+/*
+  HTML Elements
+*/
+body
+{
+  font: 20px/1em Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div
+{
+  margin: 0;
+  padding: 0;
+}
+
+p
+{
+  margin: 20px 0;
+}
+
+h1
+{
+  color: #78F;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+input
+{
+  border: 1px solid #00F;
+  font-size: 20px;
+}
+
+input[type=text], input[type=password]
+{  
+  width: 250px;
+}
+
+/*
+  Header
+*/
+p#header, p#footer
+{
+  text-align: center;
+}
+
+/*
+  Content
+*/
+div#content
+{
+  margin: 0 auto;
+  width: 50%;
+}
+
+/*
+  Sign Up Form
+*/
+div#content > form
+{
+  background: #FF9 repeat;
+  padding: 1px 21px 5px 21px;
+}
+
+div#content > form > p > label
+{
+  display: block;
+  margin-bottom: 2px;
+}
+
+/*
+  Footer
+*/
+p#footer
+{
+  background: #FF9 repeat;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 500px;
+}
+
+/*
+  Live Validation
+*/
+.LV_valid 
+{
+  display: none;
+}
+
+.LV_invalid
+{
+  color: #FF0000;
+  padding-left: 5px;
+}
+
+.LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active,
+textarea.LV_valid_field:hover, textarea.LV_valid_field:active
+{
+  border: 1px solid #21F500;
+}
+
+.LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active
+{
+  border: 1px solid #FF0000;
+}

@@ -1,0 +1,8 @@
+Thread ID: -605916288
+Total: 0.030000
+
+ %self     total     self     wait    child    calls  name
+ 66.67      0.02     0.02     0.00     0.00       80  Rack::Lint::Assertion#assert
+ 33.33      0.01     0.01     0.00     0.00      366  String#sub
+
+

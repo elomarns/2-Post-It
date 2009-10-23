@@ -73,10 +73,21 @@ div#content > form
   padding: 1px 21px 5px 21px;
 }
 
-div#content > form > p > label
+div#content > form label
 {
   display: block;
   margin-bottom: 2px;
+}
+
+div#content > form > div.fieldWithErrors, div#content > form > div.formError
+{
+  display: inline;
+}
+
+div.formError
+{
+  color: #FF0000;
+  padding-left: 5px;
 }
 
 /*
@@ -112,7 +123,7 @@ textarea.LV_valid_field:hover, textarea.LV_valid_field:active
 }
 
 .LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active,
-textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active
+textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWithErrors > input
 {
   border: 1px solid #FF0000;
 }

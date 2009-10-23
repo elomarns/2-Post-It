@@ -26,18 +26,18 @@
 
       <form action="user_home.html" method="post">
         <p>
-          <label for="login">Login:</label>
-          <input type="text" id="login" />
+          <label for="user_login">Login:</label>
+          <input type="text" id="user_login" />
         </p>
 
         <p>
-          <label for="password">Password:</label>
-          <input type="password" id="password" />
+          <label for="user_password">Password:</label>
+          <input type="password" id="user_password" />
         </p>
 
         <p>
-          <label for="password_confirmation">Password Confirmation:</label>
-          <input type="password" id="password_confirmation" />
+          <label for="user_password_confirmation">Password Confirmation:</label>
+          <input type="password" id="user_password_confirmation" />
         </p>
 
         <p>
@@ -45,15 +45,14 @@
         </p>
 
         <script type="text/javascript">
-          var login = new LiveValidation('login');
-
-          var password = new LiveValidation('password');
-          var password_confirmation = new LiveValidation('password_confirmation');
+          var login = new LiveValidation('user_login');
+          var password = new LiveValidation('user_password');
+          var password_confirmation = new LiveValidation('user_password_confirmation');
 
           login.add(Validate.Presence, { failureMessage: "No login, no sign up!" })
           password.add(Validate.Presence, { failureMessage: "Where's your password?" })
           password_confirmation.add(Validate.Presence, { failureMessage: "Did someone saw this field's value?" })
-          password_confirmation.add(Validate.Confirmation, { match: 'password', failureMessage: "Beh! It doesn't match!" } );
+          password_confirmation.add(Validate.Confirmation, { match: 'user_password', failureMessage: "Beh! It doesn't match!" } );
         </script>
       </form>
     </div>

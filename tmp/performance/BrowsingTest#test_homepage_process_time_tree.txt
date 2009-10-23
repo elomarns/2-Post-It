@@ -1,0 +1,6946 @@
+events: process_time
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::object_id
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::prepare!
+141 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::convert_cookies!
+calls=1 147
+147 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::convert_language!
+calls=1 146
+146 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::convert_content_type!
+calls=1 145
+145 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::set_content_length!
+calls=1 144
+144 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::handle_conditional_get!
+calls=1 143
+143 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::assign_default_content_type_and_charset!
+calls=1 142
+142 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/rescuable.rb
+fn=ActiveSupport::Rescuable::rescue_with_handler
+71 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/rescuable.rb
+cfn=ActiveSupport::Rescuable::handler_for_rescue
+calls=1 72
+72 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::>=
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base::rescue_responses
+21 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::>
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb
+fn=ActionView::Template::EagerPath::load!
+60 0
+
+fl=/usr/lib/ruby/1.8/monitor.rb
+fn=MonitorMixin::synchronize
+239 0
+cfl=/usr/lib/ruby/1.8/monitor.rb
+cfn=MonitorMixin::mon_exit
+calls=1 244
+244 0
+cfl=/usr/lib/ruby/1.8/monitor.rb
+cfn=MonitorMixin::mon_enter
+calls=1 240
+240 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::delete
+calls=1 213
+213 0
+cfl=/usr/lib/ruby/1.8/monitor.rb
+cfn=MonitorMixin::ConditionVariable::signal
+calls=1 214
+214 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::run_callbacks
+calls=1 212
+212 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=<Class::ActionController::Base>::master_helper_module
+1 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class::read_inheritable_attribute
+calls=1 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionHandler::retrieve_connection_pool
+347 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 348
+348 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::name
+calls=1 348
+348 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Regexp::initialize
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::initialize
+42 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::lambda
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 44
+44 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=StringIO::length
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::-
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Enumerable::find
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=6 59
+59 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Symbol::to_sym
+0 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::raise
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Exception::set_backtrace
+calls=1 66
+66 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Exception::backtrace
+calls=1 66
+66 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Exception>::exception
+calls=1 66
+66 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/templates/rescues/routing_error.erb
+fn=ActionView::Base::CompiledTemplates::_run_erb_47home47elomarns4746gem47ruby47146847gems47actionpack45246346447lib47action_controller47templates47rescues47routing_error46erb
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 3
+3 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Exception::message
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::concat
+calls=5 10
+10 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 2
+2 0
+cfl=/usr/lib/ruby/1.8/erb.rb
+cfn=ERB::Util::h
+calls=1 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::key?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::reject
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::=~
+calls=1 225
+225 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=135 66
+66 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::ControllerCapture::ClassMethods::clear_last_instantiation!
+466 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/module/attribute_accessors.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods::last_instantiation=
+calls=1 467
+467 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::extend_object
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb
+fn=<Class::ActiveRecord::Base>::clear_active_connections!
+135 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>::connection_handler
+calls=1 136
+136 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::__send__
+calls=1 136
+136 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Class::new
+0 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::initialize
+calls=1 44
+44 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 44
+44 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize
+calls=1 7
+7 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 7
+7 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::ProxyModule::initialize
+calls=1 225
+225 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Module>::allocate
+calls=1 225
+225 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+cfn=ActionView::PathSet::initialize
+calls=1 205
+205 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Array>::allocate
+calls=1 205
+205 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Class::new
+0 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::initialize
+calls=1 312
+312 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::initialize
+calls=1 321
+321 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 312
+312 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=StringIO::initialize
+calls=2 292
+292 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::StringIO>::allocate
+calls=2 292
+292 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 321
+321 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=2 44
+44 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::ErrorWrapper::initialize
+calls=1 44
+44 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::InputWrapper::initialize
+calls=1 43
+43 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/abstract_store.rb
+cfn=ActionController::Session::AbstractStore::SessionHash::initialize
+calls=1 90
+90 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 90
+90 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=Rack::Request::initialize
+calls=1 24
+24 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 24
+24 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=Rack::Request::initialize
+calls=1 24
+24 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 24
+24 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=Rack::Request::initialize
+calls=1 24
+24 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 24
+24 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::initialize
+calls=1 64
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 64
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 1281
+1281 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/test_case.rb
+cfn=ActionView::Base::initialize
+calls=1 1281
+1281 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::initialize
+calls=1 136
+136 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 136
+136 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::initialize
+calls=1 136
+136 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 136
+136 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::initialize
+calls=1 85
+85 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 85
+85 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::initialize
+calls=1 136
+136 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 136
+136 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 1300
+1300 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/url_rewriter.rb
+cfn=ActionController::UrlRewriter::initialize
+calls=1 1300
+1300 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::initialize
+calls=1 85
+85 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 85
+85 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::initialize
+calls=1 181
+181 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Regexp>::allocate
+calls=1 181
+181 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::initialize
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Array>::allocate
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::initialize
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Array>::allocate
+calls=1 11
+11 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger::info?
+74 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>=
+calls=1 75
+75 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::<
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb
+fn=ActionController::Filters::InstanceMethods::process
+604 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::process_without_filters
+calls=1 606
+606 20000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::initialize_current_url
+1299 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::params
+calls=1 1300
+1300 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::clone
+calls=1 1300
+1300 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 1300
+1300 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::request
+calls=1 1300
+1300 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::kind_of?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Time::initialize
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::sub!
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::+
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::to_ary
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=StringIO::initialize
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Object::initialize
+calls=2 292
+292 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::[]=
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+fn=Rack::Utils::HeaderHash::include?
+220 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::has_key?
+calls=1 221
+221 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 221
+221 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::has_key?
+calls=1 221
+221 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 221
+221 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::respond_to?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Symbol::to_s
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Exception::initialize
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::process_cleanup
+1410 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::==
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Mutex::synchronize
+0 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::clear_buffer
+calls=1 104
+104 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 97
+97 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=2 98
+98 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=IO::write
+calls=1 99
+99 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::join
+calls=1 99
+99 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::clear_buffer
+calls=1 104
+104 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 97
+97 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=2 98
+98 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=IO::write
+calls=1 99
+99 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::join
+calls=1 99
+99 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::clear_buffer
+calls=1 104
+104 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 97
+97 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=2 98
+98 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=IO::write
+calls=1 99
+99 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::join
+calls=1 99
+99 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::clear_buffer
+calls=1 104
+104 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 97
+97 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=1 97
+97 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess::dup
+84 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 85
+85 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 85
+85 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=ActionController::Base::request
+1 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::CallbackChain::run
+86 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=2 90
+90 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 87
+87 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::block_given?
+calls=2 89
+89 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=1 90
+90 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 87
+87 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::block_given?
+calls=1 89
+89 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/url_rewriter.rb
+fn=ActionController::UrlRewriter::initialize
+157 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Mutex::synchronize
+0 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb
+cfn=ActionController::Failsafe::call
+calls=1 11
+11 20000
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::empty?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::each
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::include?
+calls=528 24
+24 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+fn=Object::present?
+17 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=String::blank?
+calls=3 18
+18 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+fn=Rack::Request::content_length
+39 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 39
+39 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/object/misc.rb
+fn=Object::returning
+38 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Runner::copy_session_variables!
+calls=1 492
+492 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::form_data?
+420 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::include?
+calls=1 421
+421 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::content_type
+calls=1 421
+421 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/mime_type.rb
+cfn=Mime::Type::to_s
+calls=1 421
+421 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::to_s
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess::update
+45 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each_pair
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each_pair
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each_pair
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each_pair
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each_pair
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each_pair
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each_pair
+calls=1 46
+46 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::each
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::<
+calls=2 305
+305 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::to_s
+calls=2 169
+169 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=2 169
+169 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=12 169
+169 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=4 240
+240 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::to_s
+calls=4 240
+240 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=4 240
+240 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=3 347
+347 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::to_s
+calls=3 347
+347 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=3 347
+347 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=6 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::merge
+calls=114 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::shift
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::__send__
+calls=1 11
+11 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::delete
+calls=4 19
+19 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::map
+calls=6 58
+58 10000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::reject
+calls=3 66
+66 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_set
+calls=2 320
+320 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_get
+calls=2 320
+320 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::=~
+calls=2 183
+183 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 183
+183 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/mime_type.rb
+cfn=Mime::Type::to_s
+calls=1 183
+183 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::inspect
+calls=3 420
+420 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=3 420
+420 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::response
+calls=4 576
+576 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=4 576
+576 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=2 574
+574 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_get
+calls=2 574
+574 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_set
+calls=3 539
+539 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::__send__
+calls=3 539
+539 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Time::strftime
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::[]
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 129
+129 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 87
+87 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=2 64
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 432
+432 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 136
+136 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 426
+426 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 122
+122 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 406
+406 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::default
+calls=1 1355
+1355 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::default
+calls=1 1312
+1312 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 228
+228 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 256
+256 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::default
+calls=1 188
+188 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=4 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=4 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=2 196
+196 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 87
+87 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb
+fn=ActionController::Dispatcher::flush_logger
+124 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::flush
+calls=1 125
+125 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActionController::Base>::logger
+calls=1 125
+125 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb
+fn=Rack::MethodOverride::call
+12 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 13
+13 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb
+cfn=Rack::Head::call
+calls=1 24
+24 20000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=1 13
+13 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Time>::now
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Time>::allocate
+calls=1 1381
+1381 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Time::initialize
+calls=1 1381
+1381 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::check_input
+237 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 239
+239 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb
+fn=ActiveRecord::ConnectionAdapters::QueryCache::cache
+31 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb
+cfn=ActiveRecord::ConnectionAdapters::QueryCache::clear_query_cache
+calls=1 36
+36 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=1 29
+29 20000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb
+fn=ActiveRecord::QueryCache::call
+27 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb
+cfn=ActiveRecord::QueryCache::ClassMethods::cache
+calls=1 28
+28 20000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::Runner::get
+488 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::include?
+calls=1 490
+490 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/object/misc.rb
+cfn=Object::returning
+calls=1 491
+491 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::__send__
+calls=1 491
+491 30000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+fn=ActionView::Renderable::render_without_template_tracking
+27 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::compile
+calls=1 28
+28 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::with_template
+calls=1 30
+30 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::compile
+calls=1 28
+28 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::with_template
+calls=1 30
+30 0
+
+fl=/usr/lib/ruby/1.8/monitor.rb
+fn=MonitorMixin::mon_acquire
+282 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 288
+288 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=<Class::ActionController::Dispatcher>::after_dispatch_callback_chain
+7 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 10
+10 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::superclass
+calls=1 10
+10 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionManagement::call
+360 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::key?
+calls=1 365
+365 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>::clear_active_connections!
+calls=1 366
+366 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb
+cfn=ActiveRecord::QueryCache::call
+calls=1 361
+361 20000
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::dup
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::initialize_copy
+calls=1 35
+35 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 35
+35 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize_copy
+calls=1 91
+91 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 91
+91 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::initialize_copy
+calls=1 130
+130 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 130
+130 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::String>::allocate
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::initialize_copy
+calls=1 124
+124 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Thread>::current
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::each
+150 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=2 154
+154 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::<<
+calls=1 332
+332 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::inspect
+calls=1 492
+492 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=1 492
+492 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::path
+367 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActionController::Base>::relative_url_root
+calls=1 369
+369 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::to_s
+calls=1 369
+369 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::sub!
+calls=1 369
+369 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=1 368
+368 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 368
+368 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::request_uri
+calls=1 368
+368 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Object::initialize
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::rescue_action_without_handler
+141 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::rescue_action_locally
+calls=1 152
+152 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::performed?
+calls=1 143
+143 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 147
+147 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::log_error
+calls=1 142
+142 10000
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::consider_all_requests_local
+calls=1 151
+151 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::logger
+calls=1 142
+142 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session::encode_cookies
+365 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::inject
+calls=1 366
+366 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::template=
+294 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::String>::allocate
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::with_template
+299 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::template
+calls=1 300
+300 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=3 34
+34 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::template=
+calls=2 303
+303 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 32
+32 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+cfn=ActionView::Template::mime_type
+calls=1 32
+32 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::method_name
+calls=1 34
+34 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::template
+calls=1 300
+300 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=3 34
+34 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::template=
+calls=2 303
+303 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 32
+32 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+cfn=ActionView::Template::mime_type
+calls=1 32
+32 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::method_name
+calls=1 34
+34 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::<
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb
+fn=ActionController::Routing::RouteSet::extract_request_environment
+497 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::method
+calls=1 498
+498 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActionController::Base>::logger
+17 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::===
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::sending_file?
+132 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 133
+133 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 133
+133 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::eql?
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::response_code_for_rescue
+173 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 174
+174 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 174
+174 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::name
+calls=1 174
+174 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::rescue_responses
+calls=1 174
+174 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Proc>::new
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Object::initialize
+calls=1 11
+11 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::inspect
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=TrueClass::to_s
+calls=2 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::to_s
+calls=2 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=FalseClass::to_s
+calls=1 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::to_s
+calls=2 63
+63 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::update
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::_set_controller_content_type
+324 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 325
+325 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::response
+calls=1 326
+326 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::content_type
+calls=1 326
+326 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::content_type=
+calls=1 326
+326 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 325
+325 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::response
+calls=1 326
+326 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::content_type
+calls=1 326
+326 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::render_for_text
+1253 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/status_codes.rb
+cfn=ActionController::StatusCodes::interpret_status
+calls=1 1256
+1256 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 1263
+1263 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::response
+calls=2 1262
+1262 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 1265
+1265 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::===
+calls=1 1264
+1264 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::<<
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::instance_variable_names
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+fn=Rack::Utils::HeaderHash::initialize
+190 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 192
+192 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 192
+192 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::convert_content_type!
+213 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=2 215
+215 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::=~
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+fn=Rack::Request::POST
+135 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::form_data?
+calls=1 138
+138 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=<Module::Rack::Utils::Multipart>::parse_multipart
+calls=1 140
+140 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::sub!
+calls=1 145
+145 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=6 152
+152 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=4 148
+148 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::eql?
+calls=1 136
+136 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::InputWrapper::rewind
+calls=1 150
+150 10000
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=<Module::Rack::Utils>::parse_nested_query
+calls=1 148
+148 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::InputWrapper::read
+calls=1 142
+142 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::==
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::template_path_for_local_rescue
+169 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 170
+170 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 170
+170 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::name
+calls=1 170
+170 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::rescue_templates
+calls=1 170
+170 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::rescues_path
+calls=1 170
+170 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::content_length
+80 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_i
+calls=1 81
+81 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=Rack::Request::content_length
+calls=1 81
+81 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::log_processing_for_parameters
+1318 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::params
+calls=1 1319
+1319 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 1319
+1319 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::empty?
+calls=1 1322
+1322 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/except.rb
+cfn=ActiveSupport::CoreExtensions::Hash::Except::except!
+calls=1 1320
+1320 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::dup
+calls=1 1319
+1319 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::process_without_filters
+523 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::assign_names
+calls=1 529
+529 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::initialize_current_url
+calls=1 528
+528 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=1 532
+532 10000
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::assign_shortcuts
+calls=1 527
+527 10000
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::initialize_template_class
+calls=1 526
+526 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::process_cleanup
+calls=1 536
+536 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::send_response
+calls=1 534
+534 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::log_processing
+calls=1 531
+531 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::content_type
+88 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::strip
+calls=1 91
+91 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 90
+90 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 91
+91 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/mime_type.rb
+cfn=<Class::Mime::Type>::lookup
+calls=1 91
+91 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Regexp::match
+0 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=<Class::ActionController::Base>::rescue_handlers
+1 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class::read_inheritable_attribute
+calls=1 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::inspect
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::inspect
+calls=1 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::inspect
+calls=5 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::inspect
+calls=36 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::inspect
+calls=2 66
+66 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb
+fn=ActionController::Routing::RouteSet::call
+434 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb
+cfn=ActionController::Routing::RouteSet::recognize
+calls=1 436
+436 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=<Class::Rack::Request>::new
+calls=1 435
+435 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::to_s
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+fn=ActionView::PathSet::find_template
+43 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 44
+44 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 44
+44 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::path_parameters
+405 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 406
+406 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=1 406
+406 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::nonempty_ok_response?
+202 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=1 203
+203 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=1 203
+203 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 203
+203 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::map!
+0 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+cfn=<Class::ActionView::PathSet>::type_cast
+calls=1 16
+16 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 16
+16 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::convert_key
+calls=4 18
+18 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::instance_variable_set
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=<Class::ActionView::Base>::process_view_paths
+204 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 205
+205 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::Array
+calls=1 205
+205 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::include?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=TrueClass::to_s
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::lambda
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+fn=ActionView::Renderable::method_name_without_locals
+69 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 73
+73 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 70
+70 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 73
+73 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 70
+70 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 73
+73 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 70
+70 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 73
+73 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 70
+70 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::template_format
+278 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_sym
+calls=1 282
+282 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::template_format
+calls=1 282
+282 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 281
+281 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::request
+calls=1 282
+282 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::template
+290 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::empty?
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb
+fn=ActionController::Failsafe::call
+25 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb
+cfn=ActionController::Session::CookieStore::call
+calls=1 26
+26 20000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/time/conversions.rb
+fn=ActiveSupport::CoreExtensions::Time::Conversions::to_s
+47 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 49
+49 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 48
+48 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Time::strftime
+calls=1 49
+49 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::[]
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionHandler::retrieve_connection
+324 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler::retrieve_connection_pool
+calls=1 325
+325 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool::connection
+calls=1 326
+326 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::run_callbacks
+275 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::CallbackChain::run
+calls=2 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=2 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=2 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=2 276
+276 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::CallbackChain::run
+calls=1 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=1 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=1 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 276
+276 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActionController::Base>::relative_url_root
+17 0
+
+fl=/usr/lib/ruby/1.8/monitor.rb
+fn=MonitorMixin::ConditionVariable::signal
+138 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::pass
+calls=1 144
+144 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_eval
+calls=1 139
+139 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::shift
+calls=1 141
+141 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::critical=
+calls=2 143
+143 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb
+fn=ActionController::Session::CookieStore::call
+89 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=1 98
+98 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::dup
+calls=1 91
+91 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb
+cfn=ActionController::ParamsParser::call
+calls=1 93
+93 20000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=3 98
+98 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 98
+98 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 90
+90 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 91
+91 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::render
+250 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=4 260
+260 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 254
+254 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+cfn=ActionView::PathSet::find_template
+calls=1 259
+259 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb
+cfn=ActionView::Template::render_template
+calls=1 260
+260 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/reverse_merge.rb
+cfn=ActiveSupport::CoreExtensions::Hash::ReverseMerge::reverse_merge
+calls=1 255
+255 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::template_format
+calls=1 259
+259 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=4 260
+260 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 254
+254 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+cfn=ActionView::PathSet::find_template
+calls=1 259
+259 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb
+cfn=ActionView::Template::render_template
+calls=1 260
+260 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/reverse_merge.rb
+cfn=ActiveSupport::CoreExtensions::Hash::ReverseMerge::reverse_merge
+calls=1 255
+255 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::template_format
+calls=1 259
+259 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::has_key?
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::content_type=
+65 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::charset
+calls=1 67
+67 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::to_s
+calls=1 68
+68 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::=~
+calls=1 67
+67 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]=
+calls=1 68
+68 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::nil?
+calls=1 67
+67 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::charset
+calls=1 67
+67 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/mime_type.rb
+cfn=Mime::Type::=~
+calls=1 67
+67 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]=
+calls=1 68
+68 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::nil?
+calls=1 67
+67 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/mime_type.rb
+cfn=Mime::Type::to_s
+calls=1 68
+68 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::ProxyModule::include
+215 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::extend
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::include
+calls=1 216
+216 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+fn=ActionView::Template::mime_type
+69 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 73
+73 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 70
+70 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 73
+73 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 70
+70 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Integer::to_i
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::select
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::find
+calls=6 59
+59 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/rails-2.3.4/lib/initializer.rb
+fn=<Module::Rails>::backtrace_cleaner
+43 0
+
+fl=/usr/lib/ruby/1.8/monitor.rb
+fn=MonitorMixin::mon_check_owner
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 277
+277 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 277
+277 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 277
+277 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 277
+277 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb
+fn=Rack::Lock::call
+9 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Mutex::synchronize
+calls=1 11
+11 20000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 10
+10 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 13
+13 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb
+fn=ActionController::ParamsParser::parse_formatted_parameters
+19 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=<Class::Rack::Request>::new
+calls=1 20
+20 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::content_length
+calls=1 22
+22 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::zero?
+calls=1 22
+22 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Module>::allocate
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/templates/rescues/layout.erb
+fn=ActionView::Base::CompiledTemplates::_run_erb_47home47elomarns4746gem47ruby47146847gems47actionpack45246346447lib47action_controller47templates47rescues47layout46erb
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::concat
+calls=30 29
+29 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 26
+26 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+fn=<Module::Rack::Utils>::parse_nested_query
+53 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 56
+56 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 56
+56 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 56
+56 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 56
+56 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+fn=ActionView::PathSet::load!
+39 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/symbol.rb
+cfn=Symbol::to_proc
+calls=1 40
+40 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 40
+40 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/inheritable_attributes.rb
+fn=Class::read_inheritable_attribute
+112 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 113
+113 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class::inheritable_attributes
+calls=1 113
+113 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 113
+113 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/inheritable_attributes.rb
+cfn=Class::inheritable_attributes
+calls=1 113
+113 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::instance_of?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::initialize_copy
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Enumerable::inject
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 366
+366 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 196
+196 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::assign_shortcuts
+1287 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::session
+calls=1 1291
+1291 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::parameters
+calls=1 1288
+1288 10000
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Thread>::critical=
+0 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+fn=<Module::Rack::Utils::Multipart>::parse_multipart
+294 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 296
+296 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/backtrace_cleaner.rb
+fn=ActiveSupport::BacktraceCleaner::filter
+56 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 57
+57 10000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::send_response
+539 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::response
+calls=2 541
+541 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::prepare!
+calls=1 540
+540 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::view_paths=
+234 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=<Class::ActionView::Base>::process_view_paths
+calls=1 235
+235 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 235
+235 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+cfn=ActionView::PathSet::load!
+calls=1 237
+237 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::instance_eval
+0 0
+cfl=/usr/lib/ruby/1.8/monitor.rb
+cfn=MonitorMixin::mon_check_owner
+calls=1 139
+139 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::initialize_copy
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=NilClass::to_s
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Proc::call
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::nil?
+calls=2 302
+302 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::size
+calls=1 279
+279 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::<=
+calls=1 279
+279 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_of?
+calls=1 298
+298 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=StringIO::rewind
+calls=1 329
+329 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::size
+calls=1 326
+326 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::==
+calls=1 326
+326 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::sub
+calls=366 38
+38 10000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::any?
+calls=115 25
+25 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger::auto_flush
+115 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>=
+calls=1 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::size
+calls=1 116
+116 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=1 116
+116 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::flush
+calls=1 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>=
+calls=1 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::size
+calls=1 116
+116 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=1 116
+116 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::flush
+calls=1 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>=
+calls=1 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::size
+calls=1 116
+116 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=1 116
+116 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::flush
+calls=1 116
+116 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::_evaluate_assigns_and_ivars
+308 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::_copy_ivars_from_controller
+calls=1 311
+311 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 310
+310 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=ActiveSupport::CoreExtensions::Hash::IndifferentAccess::with_indifferent_access
+135 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 137
+137 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default=
+calls=1 137
+137 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 136
+136 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 137
+137 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default=
+calls=1 137
+137 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 136
+136 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::default
+calls=1 137
+137 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default=
+calls=1 137
+137 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 136
+136 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/deprecation.rb
+fn=<Module::ActiveSupport::Deprecation>::silence
+42 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::to_s
+calls=1 84
+84 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::fatal
+calls=1 84
+84 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Exception::message
+calls=1 84
+84 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 84
+84 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 81
+81 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::+
+calls=2 84
+84 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::join
+calls=1 84
+84 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::clean_backtrace
+calls=1 84
+84 10000
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::logger
+calls=1 84
+84 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Proc::call
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::include?
+calls=1 191
+191 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::include?
+calls=3 218
+218 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=9 229
+229 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_of?
+calls=2 187
+187 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=3 229
+229 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::include?
+calls=12 170
+170 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_of?
+calls=14 178
+178 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=4 241
+241 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=3 348
+348 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::dup
+calls=1 130
+130 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb
+cfn=ActionController::Dispatcher::_call
+calls=1 130
+130 20000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>=
+calls=1 389
+389 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Integer::to_i
+calls=1 389
+389 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 396
+396 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=4 404
+404 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::kind_of?
+calls=4 415
+415 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_of?
+calls=4 401
+401 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=4 404
+404 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Integer::to_i
+calls=1 435
+435 0
+cfl=/usr/lib/ruby/1.8/set.rb
+cfn=Set::include?
+calls=1 435
+435 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Integer::to_i
+calls=1 452
+452 0
+cfl=/usr/lib/ruby/1.8/set.rb
+cfn=Set::include?
+calls=1 452
+452 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_of?
+calls=1 493
+493 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::charset=
+82 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]=
+calls=1 85
+85 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::content_type
+calls=1 85
+85 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::content_type
+75 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::String
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 76
+76 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=2 76
+76 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=NilClass::blank?
+calls=1 77
+77 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::String
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 76
+76 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 76
+76 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=String::blank?
+calls=1 77
+77 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::String
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 76
+76 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 76
+76 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=String::blank?
+calls=1 77
+77 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::String
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 76
+76 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 76
+76 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=String::blank?
+calls=1 77
+77 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::inspect
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::inspect
+calls=2 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::==
+calls=2 63
+63 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::shift
+0 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+fn=NilClass::blank?
+23 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger::buffer
+119 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=2 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=1 120
+120 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 120
+120 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::check_content_length
+446 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 447
+447 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::blankslate_original_append_features
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/rescuable.rb
+fn=ActiveSupport::Rescuable::handler_for_rescue
+78 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::detect
+calls=1 81
+81 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=2 103
+103 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::rescue_handlers
+calls=1 81
+81 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::reverse
+calls=1 81
+81 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::Array
+calls=1 81
+81 0
+
+fl=/usr/lib/ruby/1.8/monitor.rb
+fn=MonitorMixin::mon_enter
+212 0
+cfl=/usr/lib/ruby/1.8/monitor.rb
+cfn=MonitorMixin::mon_acquire
+calls=1 214
+214 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::critical=
+calls=2 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::+
+calls=1 215
+215 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::===
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 1264
+1264 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::clone
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize_copy
+calls=1 1300
+1300 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 1300
+1300 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb
+fn=ActionView::Template::render_template
+198 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/test_case.rb
+cfn=ActionView::Renderable::render
+calls=1 199
+199 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/test_case.rb
+cfn=ActionView::Renderable::render
+calls=1 199
+199 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Thread>::pass
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::Assertion::assert
+16 20000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=1 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=9 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=12 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=14 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=4 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=3 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=3 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=2 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=1 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=1 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=24 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=3 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=1 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=1 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=1 17
+17 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session::requestify
+390 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=3 398
+398 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::nil?
+calls=1 402
+402 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::Callback::evaluate_method
+174 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::shift
+calls=1 177
+177 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=1 178
+178 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 176
+176 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/status_codes.rb
+fn=ActionController::StatusCodes::interpret_status
+74 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::strip
+calls=1 77
+77 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 77
+77 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::to_s
+calls=1 77
+77 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Enumerable::any?
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=115 25
+25 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 182
+182 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 196
+196 0
+
+fl=/usr/lib/ruby/1.8/monitor.rb
+fn=MonitorMixin::mon_release
+291 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::shift
+calls=2 294
+294 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/status_codes.rb
+fn=ActionController::StatusCodes::interpret_status
+74 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/status_codes.rb
+cfn=ActionController::StatusCodes::interpret_status
+calls=1 80
+80 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 80
+80 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=2 78
+78 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=ActionController::Base::params
+1 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::each_value
+0 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool::release_connection
+calls=1 303
+303 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+fn=<Class::Rack::Request>::new
+20 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::==
+calls=1 21
+21 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 24
+24 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::==
+calls=1 21
+21 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 24
+24 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::==
+calls=1 21
+21 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 24
+24 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Exception::set_backtrace
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::split
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/recognition_optimisation.rb
+fn=ActionController::Routing::RouteSet::recognize_path
+55 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::raise
+calls=1 66
+66 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::include?
+calls=1 61
+61 0
+cfl=/home/elomarns/projects/2_post_it/(recognize_optimized)
+cfn=<Object::ActionController::Routing::RouteSet>::recognize_optimized
+calls=1 56
+56 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::inspect
+calls=1 66
+66 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::select
+calls=1 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 61
+61 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::inspect
+calls=1 66
+66 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::==
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::InputWrapper::read
+277 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=StringIO::read
+calls=1 295
+295 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>=
+calls=2 289
+289 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 300
+300 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::size
+calls=2 289
+289 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::nil?
+calls=1 300
+300 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=3 301
+301 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::name
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::etag?
+114 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::include?
+calls=1 115
+115 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::to_s
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::_copy_ivars_from_controller
+316 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 320
+320 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 319
+319 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_names
+calls=1 318
+318 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::-
+calls=1 319
+319 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::protected_instance_variables
+calls=1 319
+319 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+fn=Rack::Utils::HeaderHash::[]=
+210 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 212
+212 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 213
+213 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::delete
+calls=1 211
+211 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 212
+212 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 213
+213 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::delete
+calls=1 211
+211 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 212
+212 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 213
+213 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::delete
+calls=1 211
+211 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 212
+212 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 213
+213 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::delete
+calls=1 211
+211 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 212
+212 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 213
+213 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::delete
+calls=1 211
+211 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 212
+212 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 213
+213 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::delete
+calls=1 211
+211 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=4 212
+212 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=8 213
+213 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::delete
+calls=4 211
+211 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::+
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::rescue_action_locally
+130 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::render_for_file
+calls=1 137
+137 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::response_code_for_rescue
+calls=1 137
+137 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::response
+calls=1 136
+136 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::render
+calls=1 133
+133 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::content_type=
+calls=1 136
+136 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_set
+calls=3 133
+133 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::rescues_path
+calls=1 137
+137 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::template_path_for_local_rescue
+calls=1 133
+133 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::set_content_length!
+220 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::bytesize
+calls=1 226
+226 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 223
+223 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=2 226
+226 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]=
+calls=1 226
+226 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=2 225
+225 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=2 225
+225 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=2 225
+225 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::to_s
+calls=1 226
+226 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::charset
+91 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::String
+calls=1 92
+92 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 92
+92 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=2 92
+92 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=NilClass::blank?
+calls=1 93
+93 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 92
+92 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::String
+calls=1 92
+92 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 92
+92 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 92
+92 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=NilClass::blank?
+calls=1 93
+93 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 92
+92 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::String
+calls=1 92
+92 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 92
+92 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 92
+92 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=NilClass::blank?
+calls=1 93
+93 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 92
+92 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/mime_type.rb
+fn=Mime::Type::=~
+179 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::+
+calls=1 182
+182 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::to_s
+calls=1 181
+181 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=Object::blank?
+calls=1 180
+180 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::any?
+calls=1 182
+182 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 181
+181 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Regexp>::quote
+calls=1 181
+181 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::log_processing_for_request_id
+1310 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::info
+calls=1 1315
+1315 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=1 1313
+1313 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::params
+calls=1 1312
+1312 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::method
+calls=1 1313
+1313 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 1312
+1312 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 1311
+1311 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::<<
+calls=1 1313
+1313 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::upcase
+calls=1 1313
+1313 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::request_origin
+calls=1 1313
+1313 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::logger
+calls=1 1315
+1315 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::name
+calls=1 1311
+1311 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::request
+calls=1 1313
+1313 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+fn=Rack::Utils::HeaderHash::[]
+206 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=4 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=4 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=4 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 207
+207 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::method_defined?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::hash
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::instance_variable_get
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::check_headers
+393 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::to_s
+calls=1 395
+395 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 398
+398 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 395
+395 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=1 395
+395 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::blank?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::compact
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess::delete
+101 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::convert_key
+calls=4 102
+102 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=4 102
+102 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=<Class::ActiveRecord::ConnectionAdapters::AbstractAdapter>::checkin_callback_chain
+7 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::+
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=<Class::ActiveRecord::ConnectionAdapters::AbstractAdapter>::checkin_callback_chain
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 10
+10 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::superclass
+calls=2 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 10
+10 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::superclass
+calls=1 10
+10 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::call
+34 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::dup
+calls=1 35
+35 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::_call
+calls=1 35
+35 30000
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=<Class::ActiveRecord::ConnectionAdapters::AbstractAdapter>::checkin_callback_chain
+7 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::+
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=<Class::ActiveRecord::ConnectionAdapters::AbstractAdapter>::checkin_callback_chain
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 10
+10 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 11
+11 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::superclass
+calls=2 11
+11 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+fn=Rack::Utils::HeaderHash::to_hash
+195 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::inject
+calls=1 196
+196 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::bytesize
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb
+fn=<Class::ActiveRecord::Base>::connection
+114 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>::retrieve_connection
+calls=1 115
+115 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::Callback::call
+165 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::Callback::evaluate_method
+calls=1 166
+166 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::Callback::should_run_callback?
+calls=1 166
+166 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::query_string
+336 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=3 337
+337 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=6 337
+337 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=3 337
+337 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+cfn=Object::present?
+calls=3 337
+337 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::-
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::ErrorWrapper::initialize
+356 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Class::new_without_capture
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Object::initialize
+calls=1 471
+471 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 471
+471 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb
+fn=ActiveRecord::ConnectionAdapters::QueryCache::clear_query_cache
+54 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::clear
+calls=1 55
+55 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=FalseClass::to_s
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::<<
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::zero?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::map
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Proc::call
+calls=366 58
+58 10000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::template_format
+187 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::parameters
+calls=1 188
+188 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 188
+188 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::xhr?
+calls=1 192
+192 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::delete
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::hash
+calls=4 217
+217 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::initialize_template_class
+1280 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=<Class::ActionController::Base>::master_helper_module
+calls=1 1282
+1282 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=1 1282
+1282 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=<Class::ActionController::Base>::view_paths
+calls=1 1281
+1281 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=2 1282
+1282 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 1281
+1281 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/test_case.rb
+fn=ActionView::Base::initialize
+6 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 7
+7 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::initialize_without_template_tracking
+calls=1 8
+8 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+fn=ActionView::Template::path_without_format_and_extension
+69 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=1 73
+73 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 70
+70 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionHandler::clear_active_connections!
+302 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each_value
+calls=1 303
+303 0
+
+fl=/usr/lib/ruby/1.8/set.rb
+fn=Set::include?
+152 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::include?
+calls=1 153
+153 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::include?
+calls=1 153
+153 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+fn=ActionView::Renderable::recompile?
+91 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::method
+42 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::request_method
+calls=2 43
+43 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 43
+43 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::request_method
+calls=2 43
+43 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 43
+43 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActiveRecord::Base>::connection_handler
+17 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/testing/performance.rb
+fn=ActiveSupport::Testing::Performance::Profiler::run
+177 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::__send__
+calls=1 57
+57 30000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionPool::release_connection
+105 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool::checkin
+calls=1 107
+107 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool::current_connection_id
+calls=1 106
+106 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=1 106
+106 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base::protected_instance_variables
+21 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::send
+0 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::_evaluate_assigns_and_ivars
+calls=1 31
+31 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/templates/rescues/routing_error.erb
+cfn=ActionView::Base::CompiledTemplates::_run_erb_47home47elomarns4746gem47ruby47146847gems47actionpack45246346447lib47action_controller47templates47rescues47routing_error46erb
+calls=1 34
+34 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::_set_controller_content_type
+calls=1 32
+32 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::_evaluate_assigns_and_ivars
+calls=1 31
+31 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/templates/rescues/layout.erb
+cfn=ActionView::Base::CompiledTemplates::_run_erb_47home47elomarns4746gem47ruby47146847gems47actionpack45246346447lib47action_controller47templates47rescues47layout46erb
+calls=1 34
+34 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::_set_controller_content_type
+calls=1 32
+32 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb
+cfn=ActionController::Dispatcher::flush_logger
+calls=1 178
+178 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::block_given?
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::log_processing
+1303 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::info?
+calls=1 1304
+1304 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::logger
+calls=2 1304
+1304 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::log_processing_for_parameters
+calls=1 1306
+1306 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::log_processing_for_request_id
+calls=1 1305
+1305 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::_call
+38 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::check_content_length
+calls=1 54
+54 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::check_content_type
+calls=1 53
+53 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb
+cfn=ActionController::Dispatcher::call
+calls=1 47
+47 20000
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::check_status
+calls=1 49
+49 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 44
+44 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=2 44
+44 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::check_env
+calls=1 41
+41 10000
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::check_headers
+calls=1 51
+51 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 44
+44 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=1 40
+40 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=NilClass::nil?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::send
+0 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=<Class::ActionController::Dispatcher>::after_dispatch_callback_chain
+calls=1 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=<Class::ActionController::Dispatcher>::before_dispatch_callback_chain
+calls=1 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 90
+90 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::reverse_each
+calls=1 90
+90 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::ProxyModule::include
+calls=1 1282
+1282 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::rescue_action
+calls=1 532
+532 10000
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=<Class::ActiveRecord::ConnectionAdapters::AbstractAdapter>::checkin_callback_chain
+calls=1 276
+276 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 90
+90 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/abstract_store.rb
+cfn=ActionController::Session::AbstractStore::SessionHash::loaded?
+calls=1 98
+98 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/test_process.rb
+cfn=ActionController::ProcessWithTest::set_test_assigns
+calls=1 338
+338 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::+
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+fn=Rack::Request::GET
+121 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 122
+122 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 122
+122 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 126
+126 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=<Module::Rack::Utils>::parse_nested_query
+calls=1 126
+126 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::query_string
+calls=3 126
+126 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=NilClass::to_a
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::clean_backtrace
+177 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Exception::backtrace
+calls=1 178
+178 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 178
+178 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/backtrace_cleaner.rb
+cfn=ActiveSupport::BacktraceCleaner::clean
+calls=1 178
+178 10000
+cfl=/home/elomarns/.gem/ruby/1.8/gems/rails-2.3.4/lib/initializer.rb
+cfn=<Module::Rails>::backtrace_cleaner
+calls=1 178
+178 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::check_env
+59 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::check_input
+calls=1 195
+195 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::to_s
+calls=2 186
+186 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=2 168
+168 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::inspect
+calls=1 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 175
+175 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=7 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=2 186
+186 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::inspect
+calls=1 190
+190 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=9 228
+228 10000
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::check_error
+calls=1 197
+197 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Exception>::exception
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Object>::allocate
+calls=1 66
+66 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::RoutingError::initialize
+calls=1 66
+66 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::query_parameters
+425 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::normalize_parameters
+calls=1 426
+426 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 426
+426 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=Rack::Request::GET
+calls=1 426
+426 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=1 426
+426 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::[]
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::extended
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::downcase
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::check_content_type
+428 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 429
+429 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=ActionController::Base::response
+1 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess::merge
+90 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::update
+calls=1 91
+91 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::dup
+calls=1 91
+91 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+fn=<Class::ActionView::PathSet>::type_cast
+3 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 4
+4 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=<Class::ActionController::Dispatcher>::before_dispatch_callback_chain
+7 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 10
+10 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::superclass
+calls=1 10
+10 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::blank?
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/abstract_store.rb
+fn=ActionController::Session::AbstractStore::SessionHash::initialize
+13 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize
+calls=1 14
+14 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/symbol.rb
+fn=Symbol::to_proc
+10 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Proc>::new
+calls=1 11
+11 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/recognition_optimisation.rb
+fn=ActionController::Routing::RouteSet::to_plain_segments
+123 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::dup
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::sub!
+calls=2 126
+126 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 127
+127 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::<<
+calls=1 128
+128 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::class
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionPool::checkin
+210 0
+cfl=/usr/lib/ruby/1.8/monitor.rb
+cfn=MonitorMixin::synchronize
+calls=1 211
+211 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Regexp::to_s
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::normalize_parameters
+472 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::has_key?
+calls=1 475
+475 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=ActiveSupport::CoreExtensions::Hash::IndifferentAccess::with_indifferent_access
+calls=1 484
+484 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 483
+483 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 474
+474 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::has_key?
+calls=1 475
+475 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=ActiveSupport::CoreExtensions::Hash::IndifferentAccess::with_indifferent_access
+calls=1 484
+484 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 483
+483 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 474
+474 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActiveRecord::Base>::configurations
+17 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::reverse_each
+0 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::Callback::call
+calls=1 90
+90 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::rescue_action
+72 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::rescue_action_without_handler
+calls=1 74
+74 10000
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/rescuable.rb
+cfn=ActiveSupport::Rescuable::rescue_with_handler
+calls=1 74
+74 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Enumerable::all?
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 195
+195 0
+
+fl=/usr/lib/ruby/1.8/monitor.rb
+fn=MonitorMixin::mon_exit
+223 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::pass
+calls=1 231
+231 0
+cfl=/usr/lib/ruby/1.8/monitor.rb
+cfn=MonitorMixin::mon_check_owner
+calls=1 224
+224 0
+cfl=/usr/lib/ruby/1.8/monitor.rb
+cfn=MonitorMixin::mon_release
+calls=1 228
+228 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::-
+calls=1 226
+226 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::critical=
+calls=2 230
+230 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::==
+calls=1 227
+227 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess::include?
+59 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::convert_key
+calls=1 60
+60 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::key?
+calls=1 60
+60 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::convert_key
+calls=1 60
+60 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::key?
+calls=1 60
+60 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Exception::backtrace
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Hash>::allocate
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb
+fn=ActionController::Routing::RouteSet::recognize
+440 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/recognition_optimisation.rb
+cfn=ActionController::Routing::RouteSet::recognize_path
+calls=1 441
+441 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb
+cfn=ActionController::Routing::RouteSet::extract_request_environment
+calls=1 441
+441 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::path
+calls=1 441
+441 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session::https?
+116 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/abstract_store.rb
+fn=ActionController::Session::AbstractStore::SessionHash::loaded?
+56 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::last_modified?
+102 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::include?
+calls=1 103
+103 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::nil?
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::InputWrapper::rewind
+325 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=2 327
+327 10000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger::flush
+95 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Mutex::synchronize
+calls=1 96
+96 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Mutex::synchronize
+calls=1 96
+96 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Mutex::synchronize
+calls=1 96
+96 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Mutex::synchronize
+calls=1 96
+96 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::StringIO>::allocate
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::size
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/mime_type.rb
+fn=Mime::Type::to_s
+152 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::concat
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb
+fn=Rack::Head::call
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 11
+11 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionManagement::call
+calls=1 9
+9 20000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=1 11
+11 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger::fatal
+70 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::add
+calls=1 71
+71 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::handle_conditional_get!
+187 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::etag?
+calls=1 188
+188 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::last_modified?
+calls=1 188
+188 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::nonempty_ok_response?
+calls=1 190
+190 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=IO::write
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::Array
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::to_a
+calls=1 235
+235 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionPool::connection
+94 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 95
+95 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionPool::current_connection_id
+calls=1 95
+95 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::extend
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::extended
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::extend_object
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::extended
+calls=1 351
+351 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::extend_object
+calls=1 351
+351 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::merge
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize_copy
+calls=114 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=114 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize_copy
+calls=1 22
+22 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 22
+22 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize_copy
+calls=1 22
+22 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Hash>::allocate
+calls=1 22
+22 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActionController::Base>::default_charset
+17 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=StringIO::read
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::delete
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::convert_cookies!
+234 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 235
+235 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::compact
+calls=1 235
+235 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]=
+calls=1 235
+235 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::Array
+calls=1 235
+235 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::default_charset
+40 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::__send__
+calls=1 41
+41 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Exception::to_s
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::performed?
+1350 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::inspect
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::remote_ip
+221 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::scan
+calls=1 222
+222 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::empty?
+calls=1 226
+226 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::reject
+calls=1 225
+225 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::blank?
+calls=1 224
+224 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::include?
+calls=1 230
+230 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=4 251
+251 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/test_process.rb
+fn=ActionController::ProcessWithTest::set_test_assigns
+571 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 573
+573 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 573
+573 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_names
+calls=1 573
+573 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActionController::Base>::protected_instance_variables
+calls=1 573
+573 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::-
+calls=1 573
+573 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::gsub
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::request_origin
+1378 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/time/conversions.rb
+cfn=ActiveSupport::CoreExtensions::Time::Conversions::to_s
+calls=1 1381
+1381 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Time>::now
+calls=1 1381
+1381 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::remote_ip
+calls=1 1381
+1381 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::request
+calls=1 1381
+1381 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::include?
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::request_parameters
+431 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::normalize_parameters
+calls=1 432
+432 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 432
+432 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=Rack::Request::POST
+calls=1 432
+432 10000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=1 432
+432 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Class::superclass
+0 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::=~
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb
+fn=<Class::ActiveRecord::Base>::retrieve_connection
+122 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>::connection_handler
+calls=1 123
+123 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler::retrieve_connection
+calls=1 123
+123 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger::add
+58 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=1 64
+64 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::auto_flush
+calls=1 65
+65 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=1 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 60
+60 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>
+calls=1 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::<<
+calls=1 64
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::==
+calls=1 63
+63 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=1 64
+64 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::auto_flush
+calls=1 65
+65 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=1 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 60
+60 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>
+calls=1 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::<<
+calls=1 64
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::==
+calls=1 63
+63 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::buffer
+calls=1 64
+64 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::auto_flush
+calls=1 65
+65 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=1 63
+63 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 60
+60 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::>
+calls=1 59
+59 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::<<
+calls=1 64
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::==
+calls=1 63
+63 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess::initialize
+6 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::update
+calls=1 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 7
+7 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::update
+calls=1 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 7
+7 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::update
+calls=1 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 7
+7 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::update
+calls=1 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 7
+7 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::update
+calls=1 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::initialize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 7
+7 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session::process
+257 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::each
+calls=1 332
+332 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods::clear_last_instantiation!
+calls=1 310
+310 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session::https?
+calls=3 278
+278 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=2 323
+323 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::update
+calls=1 286
+286 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=1 273
+273 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::send
+calls=1 338
+338 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 323
+323 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::extend
+calls=1 351
+351 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 329
+329 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::each
+calls=1 298
+298 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 319
+319 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::response
+calls=1 337
+337 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Integer::to_i
+calls=1 318
+318 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=4 321
+321 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 271
+271 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::upcase
+calls=1 273
+273 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 264
+264 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=1 323
+323 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/module/attribute_accessors.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods::last_instantiation
+calls=1 335
+335 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=StringIO::length
+calls=1 286
+286 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 269
+269 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::[]
+calls=1 260
+260 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::+
+calls=1 314
+314 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::call
+calls=1 313
+313 30000
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session::encode_cookies
+calls=1 286
+286 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::request
+calls=1 336
+336 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::to_s
+calls=1 286
+286 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::==
+calls=1 260
+260 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session::requestify
+calls=1 258
+258 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base::rescue_templates
+21 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+fn=Rack::Request::initialize
+28 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::xhr?
+206 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::=~
+calls=1 207
+207 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 207
+207 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/inheritable_attributes.rb
+fn=Class::inheritable_attributes
+91 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess::convert_key
+115 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::kind_of?
+calls=1 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=4 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::kind_of?
+calls=4 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::kind_of?
+calls=4 116
+116 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::kind_of?
+calls=1 116
+116 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::default=
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Enumerable::detect
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 81
+81 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::Session::get
+195 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session::process
+calls=1 196
+196 30000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+fn=HashWithIndifferentAccess::default
+15 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 19
+19 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 16
+16 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 19
+19 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 16
+16 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 19
+19 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=1 16
+16 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::include?
+calls=1 16
+16 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 16
+16 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::default
+calls=1 19
+19 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=1 16
+16 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::include?
+calls=1 16
+16 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=1 16
+16 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::InputWrapper::initialize
+249 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+fn=Object::blank?
+12 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 13
+13 0
+
+fl=/home/elomarns/projects/2_post_it/test/performance/browsing_test.rb
+fn=BrowsingTest::test_homepage
+6 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Runner::get
+calls=1 7
+7 30000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::ControllerCapture::ClassMethods::new
+470 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new_without_capture
+calls=1 471
+471 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/module/attribute_accessors.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods::last_instantiation
+calls=1 472
+472 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/module/attribute_accessors.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods::last_instantiation=
+calls=1 472
+472 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::RoutingError::initialize
+15 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Exception::initialize
+calls=1 16
+16 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/builder-2.1.2/lib/blankslate.rb
+fn=Module::append_features
+105 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::==
+calls=1 107
+107 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::blankslate_original_append_features
+calls=1 106
+106 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Array>::allocate
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::clear
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/backtrace_cleaner.rb
+fn=ActiveSupport::BacktraceCleaner::silence
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 65
+65 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+fn=ActiveRecord::ConnectionAdapters::ConnectionPool::current_connection_id
+226 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::object_id
+calls=1 227
+227 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 227
+227 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::object_id
+calls=1 227
+227 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 227
+227 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/test_case.rb
+fn=ActionView::Renderable::render
+14 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 18
+18 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 15
+15 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::render_without_template_tracking
+calls=1 20
+20 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=2 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=1 18
+18 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_get
+calls=1 16
+16 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 18
+18 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 15
+15 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::render_without_template_tracking
+calls=1 20
+20 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::is_a?
+calls=2 17
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::instance_variable_get
+calls=1 16
+16 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::reverse
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+fn=ActionView::Renderable::compile
+57 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::method_defined?
+calls=1 60
+60 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::recompile?
+calls=1 60
+60 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::method_name
+calls=1 58
+58 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::method_defined?
+calls=1 60
+60 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::recompile?
+calls=1 60
+60 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+cfn=ActionView::Renderable::method_name
+calls=1 58
+58 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+fn=Rack::Request::request_method
+37 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 37
+37 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 37
+37 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::is_a?
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::join
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::ClassMethods::call_with_exception
+62 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=<Class::Rack::Request>::new
+calls=1 63
+63 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb
+cfn=ActionController::Filters::InstanceMethods::process
+calls=1 65
+65 20000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 64
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 64
+64 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=2 64
+64 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::ControllerCapture::ClassMethods::new
+calls=1 65
+65 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::assign_names
+1354 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=ActionController::Base::params
+calls=1 1355
+1355 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 1355
+1355 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Regexp>::allocate
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::initialize_without_template_tracking
+221 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::view_paths=
+calls=1 226
+226 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::new
+calls=1 225
+225 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::initialize
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb
+fn=ActionView::Template::EagerPath::[]
+74 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 76
+76 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base::logger
+21 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::initialize
+8 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Symbol::inspect
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::parameters
+384 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::update
+calls=1 385
+385 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=ActiveSupport::CoreExtensions::Hash::IndifferentAccess::with_indifferent_access
+calls=1 385
+385 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::path_parameters
+calls=1 385
+385 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::query_parameters
+calls=1 385
+385 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/indifferent_access.rb
+cfn=HashWithIndifferentAccess::merge
+calls=1 385
+385 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+cfn=ActionController::Request::request_parameters
+calls=1 385
+385 10000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/except.rb
+fn=ActiveSupport::CoreExtensions::Hash::Except::except!
+17 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 19
+19 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 18
+18 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::map!
+calls=1 18
+18 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=ActionController::Base::consider_all_requests_local
+21 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::request_uri
+342 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 343
+343 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb
+fn=ActionController::Dispatcher::call
+104 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb
+cfn=Rack::Lock::call
+calls=1 106
+106 20000
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::initialize_copy
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::upcase
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Object>::allocate
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::to_i
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/paths.rb
+fn=ActionView::PathSet::initialize
+15 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::initialize
+calls=1 16
+16 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::map!
+calls=1 16
+16 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::included
+0 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::check_status
+386 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=1 389
+389 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb
+fn=ActionController::ParamsParser::call
+10 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb
+cfn=ActionController::ParamsParser::parse_formatted_parameters
+calls=1 11
+11 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb
+cfn=Rack::MethodOverride::call
+calls=1 15
+15 20000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger::clear_buffer
+123 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=1 124
+124 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=<Class::Thread>::current
+calls=1 124
+124 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=<Class::ActionController::Base>::view_paths
+424 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::default
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=<Class::ActionController::Base>::view_paths
+424 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=<Class::ActionController::Base>::view_paths
+calls=1 428
+428 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Class::superclass
+calls=1 428
+428 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::include?
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=2 490
+490 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=1 191
+191 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::==
+calls=1 421
+421 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=1 421
+421 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::==
+calls=2 106
+106 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb
+fn=ActionController::Dispatcher::dispatch
+84 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb
+cfn=ActionController::Routing::RouteSet::call
+calls=1 87
+87 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+cfn=ActionController::Rescue::ClassMethods::call_with_exception
+calls=1 90
+90 20000
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::===
+calls=1 87
+87 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/response.rb
+cfn=Rack::Response::to_a
+calls=1 90
+90 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+cfn=ActiveSupport::Callbacks::run_callbacks
+calls=2 95
+95 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Module::include
+0 0
+cfl=/usr/lib/ruby/gems/1.8/gems/builder-2.1.2/lib/blankslate.rb
+cfn=Module::append_features
+calls=1 216
+216 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::included
+calls=1 216
+216 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::check_error
+344 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 346
+346 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::session
+440 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 441
+441 0
+
+fl=/home/elomarns/projects/2_post_it/(eval)
+fn=ActionController::Base::rescue_handlers
+5 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=1 6
+6 0
+cfl=/home/elomarns/projects/2_post_it/(eval)
+cfn=<Class::ActionController::Base>::rescue_handlers
+calls=1 6
+6 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/hash/reverse_merge.rb
+fn=ActiveSupport::CoreExtensions::Hash::ReverseMerge::reverse_merge
+21 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::merge
+calls=1 22
+22 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::merge
+calls=1 22
+22 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/module/attribute_accessors.rb
+fn=ActionController::Integration::ControllerCapture::ClassMethods::last_instantiation=
+47 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb
+fn=ActiveRecord::QueryCache::ClassMethods::cache
+5 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActiveRecord::Base>::configurations
+calls=1 6
+6 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb
+cfn=<Class::ActiveRecord::Base>::connection
+calls=1 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::blank?
+calls=1 6
+6 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb
+cfn=ActiveRecord::ConnectionAdapters::QueryCache::cache
+calls=1 9
+9 20000
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Time>::allocate
+0 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+fn=ActionController::Integration::Runner::copy_session_variables!
+536 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=1 538
+538 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::to_sym
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Exception::message
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Exception::to_s
+calls=1 85
+85 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Exception::to_s
+calls=1 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+fn=<Class::ActionController::Base>::protected_instance_variables
+17 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::log_error
+79 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/deprecation.rb
+cfn=<Module::ActiveSupport::Deprecation>::silence
+calls=1 80
+80 10000
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/request.rb
+fn=ActionController::Request::request_method
+34 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 35
+35 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=Rack::Request::request_method
+calls=1 35
+35 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 35
+35 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/request.rb
+cfn=Rack::Request::request_method
+calls=1 35
+35 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::each_pair
+0 0
+
+fl=/home/elomarns/projects/2_post_it/(recognize_optimized)
+fn=<Object::ActionController::Routing::RouteSet>::recognize_optimized
+2 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::<
+calls=20 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::[]
+calls=19 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::size
+calls=20 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/recognition_optimisation.rb
+cfn=ActionController::Routing::RouteSet::to_plain_segments
+calls=1 3
+3 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::+
+calls=19 9
+9 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+cfl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+cfn=<Object::ActionController::Routing::Route>::recognize
+calls=1 8
+8 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=<Class::Regexp>::quote
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+fn=ActiveSupport::BufferedLogger::info
+70 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::add
+calls=1 71
+71 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::add
+calls=1 71
+71 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+fn=Rack::Utils::HeaderHash::delete
+216 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=2 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=2 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=2 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=2 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=2 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=1 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=2 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=4 217
+217 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::delete
+calls=8 217
+217 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::assign_default_content_type_and_charset!
+136 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::charset
+calls=1 138
+138 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::charset=
+calls=1 138
+138 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::default_charset
+calls=1 138
+138 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::sending_file?
+calls=1 138
+138 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::content_type
+calls=1 137
+137 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::String
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::to_s
+calls=1 76
+76 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=NilClass::to_s
+calls=1 92
+92 0
+
+fl=/usr/lib/ruby/1.8/erb.rb
+fn=ERB::Util::h
+782 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::gsub
+calls=4 783
+783 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_s
+calls=1 783
+783 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+fn=ActionController::Base::render_for_file
+1247 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/buffered_logger.rb
+cfn=ActiveSupport::BufferedLogger::info
+calls=1 1249
+1249 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Symbol::to_s
+calls=1 1249
+1249 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb
+cfn=ActionController::Base::render_for_text
+calls=1 1250
+1250 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 1248
+1248 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+cfn=ActionView::Base::render
+calls=1 1250
+1250 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::+
+calls=1 1249
+1249 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=ActionController::Base::logger
+calls=2 1249
+1249 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+cfn=ActionView::Template::path_without_format_and_extension
+calls=1 1248
+1248 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb
+fn=ActionController::Dispatcher::_call
+119 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb
+cfn=ActionController::Dispatcher::dispatch
+calls=1 121
+121 20000
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::==
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::scan
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb
+fn=ActionController::Rescue::rescues_path
+165 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb
+cfn=ActionView::Template::EagerPath::[]
+calls=1 166
+166 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb
+cfn=ActionView::Template::EagerPath::[]
+calls=1 166
+166 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+fn=ActionController::Response::convert_language!
+230 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]
+calls=1 231
+231 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=StringIO::rewind
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Hash::each
+0 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::inspect
+calls=14 177
+177 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=14 177
+177 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::include?
+calls=21 176
+176 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]=
+calls=1 192
+192 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=4 197
+197 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::join
+calls=1 198
+198 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]=
+calls=4 200
+200 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::to_ary
+calls=1 198
+198 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Module::to_s
+calls=8 415
+415 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::each
+calls=4 418
+418 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::class
+calls=8 415
+415 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::split
+calls=4 418
+418 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::+
+calls=4 415
+415 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=24 415
+415 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=2 433
+433 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=1 434
+434 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=2 433
+433 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::to_s
+calls=1 434
+434 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 458
+458 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::downcase
+calls=3 448
+448 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+cfn=Rack::Lint::Assertion::assert
+calls=1 451
+451 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::==
+calls=3 448
+448 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Fixnum::to_s
+calls=1 451
+451 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::[]=
+calls=4 192
+192 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::to_s
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb
+fn=ActionView::Renderable::method_name
+45 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::any?
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_sym
+calls=1 52
+52 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+cfn=ActionView::Renderable::method_name_without_locals
+calls=1 50
+50 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::any?
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_sym
+calls=1 52
+52 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+cfn=ActionView::Renderable::method_name_without_locals
+calls=1 50
+50 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::any?
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_sym
+calls=1 52
+52 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+cfn=ActionView::Renderable::method_name_without_locals
+calls=1 50
+50 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::any?
+calls=1 46
+46 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_sym
+calls=1 52
+52 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/memoizable.rb
+cfn=ActionView::Renderable::method_name_without_locals
+calls=1 50
+50 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/backtrace_cleaner.rb
+fn=ActiveSupport::BacktraceCleaner::clean
+23 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/backtrace_cleaner.rb
+cfn=ActiveSupport::BacktraceCleaner::silence
+calls=1 24
+24 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/backtrace_cleaner.rb
+cfn=ActiveSupport::BacktraceCleaner::filter
+calls=1 24
+24 10000
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Fixnum::<=
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::sub
+0 10000
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize-3031
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::__send__
+0 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/integration.rb
+cfn=ActionController::Integration::Session::get
+calls=1 491
+491 30000
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb
+cfn=ActionView::Template::EagerPath::load!
+calls=1 11
+11 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/class/attribute_accessors.rb
+cfn=<Class::ActionController::Base>::default_charset
+calls=1 41
+41 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb
+cfn=ActiveRecord::ConnectionAdapters::ConnectionHandler::clear_active_connections!
+calls=1 136
+136 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb
+fn=ActiveSupport::Callbacks::Callback::should_run_callback?
+194 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::flatten
+calls=2 196
+196 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::any?
+calls=1 196
+196 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::compact
+calls=2 196
+196 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=2 196
+196 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Enumerable::all?
+calls=1 196
+196 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb
+fn=Rack::Lint::each
+487 0
+cfl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/response.rb
+cfn=ActionController::Response::each
+calls=1 490
+490 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 512
+512 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::initialize
+0 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/module/attribute_accessors.rb
+fn=ActionController::Integration::ControllerCapture::ClassMethods::last_instantiation
+27 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb
+fn=ActionView::Base::ProxyModule::initialize
+211 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/mime_type.rb
+fn=<Class::Mime::Type>::lookup
+65 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Hash::[]
+calls=1 66
+66 0
+
+fl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/response.rb
+fn=Rack::Response::to_a
+103 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Array::include?
+calls=1 106
+106 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=String::to_i
+calls=2 110
+110 0
+cfl=/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/utils.rb
+cfn=Rack::Utils::HeaderHash::to_hash
+calls=1 110
+110 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Kernel::__send__
+0 0
+cfl=/home/elomarns/projects/2_post_it/test/performance/browsing_test.rb
+cfn=BrowsingTest::test_homepage
+calls=1 57
+57 30000
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/blank.rb
+fn=String::blank?
+49 0
+
+fl=/home/elomarns/projects/2_post_it/generated code (/home/elomarns/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route.rb:205)
+fn=<Object::ActionController::Routing::Route>::recognize
+1 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=1 2
+2 0
+cfl=/home/elomarns/projects/2_post_it/ruby_runtime
+cfn=Regexp::match
+calls=6 2
+2 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=String::strip
+0 0
+
+fl=/home/elomarns/projects/2_post_it/ruby_runtime
+fn=Array::flatten
+0 0
+

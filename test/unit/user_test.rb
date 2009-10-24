@@ -5,7 +5,7 @@ class UserTest < ActiveSupport::TestCase
   # Then, you can remove it from this and the functional test.
   include AuthenticatedTestHelper
 
-  test "should require login" do
+  test "should require user login" do
     assert_no_difference 'User.count' do
       user_without_login = User.create(:login => nil, :password => "my_password",
         :password_confirmation => "my_password")
@@ -18,7 +18,7 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "should require password" do
+  test "should require user password" do
     assert_no_difference 'User.count' do
       user_without_password = User.create(:login => "elomarns", :password => nil,
         :password_confirmation => "my_other_password")
@@ -31,7 +31,7 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "should require password confirmation" do
+  test "should require user password confirmation" do
     assert_no_difference 'User.count' do
       user_without_password_confirmation = User.create(:login => "xaxa",
         :password => "a_very_weak_password", :password_confirmation => nil)
@@ -63,6 +63,20 @@ class UserTest < ActiveSupport::TestCase
     assert_no_difference 'User.count' do
       user_with_existent_login = User.create(:login => "nerdaniel",
         :password => "a-really_funny_password", :password_confirmation => "a-really_funny_password")
+
+      assert !user_with_existent_login.valid?
+      assert user_with_existent_login.new_record?
+      assert_equal 1, user_with_existent_login.errors.size
+      assert user_with_existent_login.errors.on(:login)
+      assert_equal "Bad news, someone's using this login.",
+        user_with_existent_login.errors.on(:login)
+    end
+  end
+
+  test "should require a unique login without consider case sensitive" do
+    assert_no_difference 'User.count' do
+      user_with_existent_login = User.create(:login => "douglas_afonso",
+        :password => "imaginary_password", :password_confirmation => "imaginary_password")
 
       assert !user_with_existent_login.valid?
       assert user_with_existent_login.new_record?

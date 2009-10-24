@@ -6,7 +6,8 @@ class User < ActiveRecord::Base
   include Authentication::ByCookieToken
 
   validates_presence_of :login, :message => "No login, no sign up!"
-  validates_uniqueness_of :login, :message => "Bad news, someone's using this login."
+  validates_uniqueness_of :login, :case_sensitive => false,
+    :message => "Bad news, someone's using this login."
 
   attr_accessible :login, :password, :password_confirmation
   

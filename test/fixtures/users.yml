@@ -6,6 +6,14 @@ daniel_marques:
   remember_token_expires_at: <%= 1.days.from_now.to_s %>
   remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
 
+douglas_afonso
+  login: douglas_afonso
+  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
+  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
+  created_at:                <%= 5.days.ago.to_s :db  %>
+  remember_token_expires_at: <%= 1.days.from_now.to_s %>
+  remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
+
 maria_jose:
   login: maria_jose
   salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')

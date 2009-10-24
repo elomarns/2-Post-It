@@ -14,16 +14,21 @@ div
   padding: 0;
 }
 
-p
-{
-  margin: 20px 0;
-}
-
 h1
 {
   color: #78F;
   font-size: 1.5em;
   font-weight: normal;
+}
+
+p
+{
+  margin: 20px 0;
+}
+
+ul
+{
+  list-style-type: none;
 }
 
 a
@@ -40,6 +45,12 @@ input
 {
   border: 1px solid #00F;
   font-size: 20px;
+}
+
+textarea
+{
+  margin: 0;
+  padding: 0;
 }
 
 input[type=text], input[type=password]
@@ -67,19 +78,19 @@ div#content
 /*
   Sign Up Form
 */
-div#content > form
+div#content form
 {
   background: #FF9 repeat;
   padding: 1px 21px 5px 21px;
 }
 
-div#content > form label
+div#content form label
 {
   display: block;
   margin-bottom: 2px;
 }
 
-div#content > form > div.fieldWithErrors, div#content > form > div.formError
+div#content form div.fieldWithErrors, div#content form div.formError
 {
   display: inline;
 }
@@ -91,11 +102,78 @@ div.formError
 }
 
 /*
+  User's Home
+*/
+div#content.user_home
+{
+  margin: 0 auto;
+  width: 95%;
+}
+
+div#content.user_home ul
+{
+  margin: 0;
+}
+
+div#content ul li div.task
+{
+  background: #FF9 repeat;position: relative;
+  float: left;
+  font-size: 18px;
+  height: 130px;
+  margin: 0 10px 20px 10px;
+  padding: 10px;
+  width: 180px;
+}
+
+div#content ul li div.task p, div#content ul li div#new_task.task textarea
+{
+  color: #545657;
+  line-height: 1.3em;
+  margin: 0;
+  text-align: justify;
+}
+
+div#content ul li div.task input
+{
+  display: none;
+}
+
+div#content ul li div.task:hover input
+{
+  display: inline;
+}
+
+div#content ul li div.task input
+{
+  bottom: 5px;
+  position: absolute;
+  right: 5px;
+}
+
+/*
+  New Task
+*/
+div#content ul li div#new_task.task textarea
+{
+  border: 0;
+  background: #FF9;
+  color: #78F;
+  font-size:18px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 180px;
+}
+
+
+/*
   Footer
 */
 p#footer
 {
   background: #FF9 repeat;
+  clear: both;
   font-size: 20px;
   margin: 20px auto;
   padding: 10px;
@@ -123,7 +201,13 @@ textarea.LV_valid_field:hover, textarea.LV_valid_field:active
 }
 
 .LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active,
-textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWithErrors > input
+textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWithErrors  input
 {
   border: 1px solid #FF0000;
+}
+
+div#content ul li div#new_task.task form textarea.LV_invalid_field
+{
+  color: #F00;
+  text-decoration: blink;
 }

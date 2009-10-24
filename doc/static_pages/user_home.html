@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="description" content="User's home at 2 Post It." />
+    <meta name="keywords" content="task, list, post it, to do, done, user's home" />
+    <meta name="author" content="Elomar Nascimento dos Santos" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/2_post_it.css" />
+
+    <script type="text/javascript" src="javascripts/prototype.js"></script>
+    <script type="text/javascript" src="javascripts/livevalidation_prototype.compressed.js"></script>
+    <script type="text/javascript" src="javascripts/defaultvalueactsashint.js"></script>
+
+    <title>2 Post It - Home</title>
+  </head>
+  <body>
+    <p id="header">
+      <img src="images/logo.png" alt="2 Post It" width="283" height="69" />
+    </p>
+
+    <div id="content" class="user_home">
+      <ul>
+        <li>
+          <div class="task" id="new_task">
+            <form action="user_home.html.html" method="post">
+              <textarea rows="5" id="task_description" onkeydown="submitForm(this, event);">New Task</textarea>
+
+            </form>
+
+            <script type="text/javascript" charset="utf-8">
+              $('task_description').defaultValueActsAsHint();
+            </script>
+
+            <script type="text/javascript">
+              var task_description = new LiveValidation('task_description');
+
+              task_description.add(Validate.Presence)
+              task_description.add(Validate.Length, { maximum: 67 });
+            </script>
+
+            <script type="text/javascript">
+              function stopEvent(event)
+              {
+                if (event.preventDefault)
+                {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                else
+                {
+                  event.returnValue = false;
+                  event.cancelBubble = true;
+                }
+              }
+
+              function submitForm(obj, evt)
+              {
+                var e = evt || event;
+                var key = e.keyCode;
+
+                if(key == 13)
+                {
+                  if(!e.shiftKey)
+                  {
+                    if(obj.form)
+                      obj.form.submit();
+
+                    stopEvent(e);
+                  }
+                }
+              }
+            </script>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Develop the prototype of sign up page for 2 Post It.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Develop the prototype of user's home page for 2 Post It.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Define the features of my blog engine.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Watch the fourth seadon of South Park.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Create my personal website.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Write the model Character for Dungeon Tools.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Watch Donnie Darko.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Watch Nettuts's screencasts about Photoshop.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+
+        <li>
+          <div class="task">
+            <p>
+              Watch Caelum's screencast about RSpec and Cucumber.
+            </p>
+
+            <form action="mark_as_done" method="post">
+              <p>
+                <input type="checkbox" title="Mark as done" />
+              </p>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <p id="footer">
+      Created by
+      <a href="http://www.elomarns.com/blog/" title="My Personal Blog">Elomar Nascimento dos Santos</a>
+      (<a href="http://www.twitter.com/elomarns" title="My Page on Twitter">@elomarns</a>)
+    </p>
+  </body>
+</html>

@@ -10050,3 +10050,4 @@ Rendered tasks/_task (7.0ms)
 Rendered tasks/_task (7.7ms)
 Rendered tasks/_task (7.8ms)
 Completed in 81ms (View: 59, DB: 1) | 200 OK [http://localhost/tasks]
+  [4;36;1mTask Delete all (7.1ms)[0m   [0;1mDELETE FROM "tasks" WHERE 1=1[0m

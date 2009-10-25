@@ -59,7 +59,7 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "should require a unique user login" do
+  test "should require unique user login" do
     assert_no_difference 'User.count' do
       user_with_existent_login = User.create(:login => "nerdaniel",
         :password => "a-really_funny_password", :password_confirmation => "a-really_funny_password")
@@ -73,7 +73,7 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "should require a unique case insensitive user login" do
+  test "should require unique case insensitive user login" do
     assert_no_difference 'User.count' do
       user_with_existent_login_without_consider_case_sensitive = User.create(:login => "DOUGLAS_AFONSO",
         :password => "imaginary_password", :password_confirmation => "imaginary_password")

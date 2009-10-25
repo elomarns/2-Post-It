@@ -48,7 +48,7 @@ class UserTest < ActiveSupport::TestCase
   test "should require a matching password confirmation for users" do
     assert_no_difference 'User.count' do
       user_with_a_password_confirmation_not_matching = User.create(:login => "bighi",
-        :password => "ehnois1", :password_confirmation => "ehnois1")
+        :password => "ehnois1", :password_confirmation => "ehnois01")
 
       assert !user_with_a_password_confirmation_not_matching.valid?
       assert user_with_a_password_confirmation_not_matching.new_record?

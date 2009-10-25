@@ -9476,3 +9476,17 @@ Rendered tasks/_task (7.6ms)
 Rendered tasks/_task (7.4ms)
 Rendered tasks/_task (7.9ms)
 Completed in 383ms (View: 360, DB: 5) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#update (for 127.0.0.1 at 2009-10-24 10:20:43) [PUT]
+  Parameters: {"authenticity_token"=>"GosRgpCqkJzp5u+WjRyEPPa2rLGvJwUN4+RSatjgvFo=", "id"=>"153", "task"=>{"done"=>"1"}}
+  [4;35;1mTask Load (0.7ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 153) [0m
+  [4;36;1mTask Update (0.7ms)[0m   [0;1mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-24 12:20:43' WHERE "id" = 153[0m
+Completed in 23ms (View: 10, DB: 1) | 200 OK [http://localhost/tasks/153]
+
+
+Processing TasksController#update (for 127.0.0.1 at 2009-10-24 10:20:48) [PUT]
+  Parameters: {"authenticity_token"=>"GosRgpCqkJzp5u+WjRyEPPa2rLGvJwUN4+RSatjgvFo=", "id"=>"157", "task"=>{"done"=>"1"}}
+  [4;35;1mTask Load (0.6ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 157) [0m
+  [4;36;1mTask Update (0.6ms)[0m   [0;1mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-24 12:20:48' WHERE "id" = 157[0m
+Completed in 25ms (View: 10, DB: 1) | 200 OK [http://localhost/tasks/157]

@@ -45,10 +45,10 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "should require a matching password confirmation" do
+  test "should require a matching password confirmation for users" do
     assert_no_difference 'User.count' do
       user_with_a_password_confirmation_not_matching = User.create(:login => "bighi",
-        :password => "this is a password", :password_confirmation => "nice password")
+        :password => "ehnois1", :password_confirmation => "ehnois1")
 
       assert !user_with_a_password_confirmation_not_matching.valid?
       assert user_with_a_password_confirmation_not_matching.new_record?
@@ -59,7 +59,7 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "should require a unique login" do
+  test "should require a unique user login" do
     assert_no_difference 'User.count' do
       user_with_existent_login = User.create(:login => "nerdaniel",
         :password => "a-really_funny_password", :password_confirmation => "a-really_funny_password")
@@ -73,17 +73,17 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "should require a unique login without consider case sensitive" do
+  test "should require a unique case insensitive user login" do
     assert_no_difference 'User.count' do
-      user_with_existent_login = User.create(:login => "douglas_afonso",
+      user_with_existent_login_without_consider_case_sensitive = User.create(:login => "DOUGLAS_AFONSO",
         :password => "imaginary_password", :password_confirmation => "imaginary_password")
 
-      assert !user_with_existent_login.valid?
-      assert user_with_existent_login.new_record?
-      assert_equal 1, user_with_existent_login.errors.size
-      assert user_with_existent_login.errors.on(:login)
+      assert !user_with_existent_login_without_consider_case_sensitive.valid?
+      assert user_with_existent_login_without_consider_case_sensitive.new_record?
+      assert_equal 1, user_with_existent_login_without_consider_case_sensitive.errors.size
+      assert user_with_existent_login_without_consider_case_sensitive.errors.on(:login)
       assert_equal "Bad news, someone's using this login.",
-        user_with_existent_login.errors.on(:login)
+        user_with_existent_login_without_consider_case_sensitive.errors.on(:login)
     end
   end
 
@@ -93,8 +93,8 @@ class UserTest < ActiveSupport::TestCase
         :password_confirmation => "another_borring password")
 
       assert valid_user.valid?
-      assert !valid_user.new_record?
       assert_equal 0, valid_user.errors.size
+      assert !valid_user.new_record?
     end
   end
 

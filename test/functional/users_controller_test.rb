@@ -8,6 +8,7 @@ class UsersControllerTest < ActionController::TestCase
   test "should show sign up page" do
     get :new
     assert_not_nil assigns(:user)
+    assert_equal User.new, assigns(:user)
     assert_template "new"
     assert_response :success
   end

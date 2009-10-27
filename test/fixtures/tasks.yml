@@ -1,0 +1,7 @@
+learn_jquery:
+  description: Learn Jquery.
+  done: false
+
+study_ajax:
+  description: Study more about Ajax.
+  done: false

@@ -12051,3 +12051,16 @@ Completed in 28ms (View: 14, DB: 1) | 200 OK [http://localhost/tasks/211]
   [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
   [4;35;1mSQL (3.2ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20091024022959')[0m
   [4;36;1mSQL (2.3ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20091022062151')[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-10-27 09:35:44) [GET]
+  [4;36;1mTask Load (1.0ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Rendered tasks/_task (7.2ms)
+Rendered tasks/_task (9.2ms)
+Rendered tasks/_task (7.7ms)
+Rendered tasks/_task (8.6ms)
+Rendered tasks/_task (7.1ms)
+Rendered tasks/_task (7.7ms)
+Completed in 117ms (View: 87, DB: 1) | 200 OK [http://localhost/tasks]

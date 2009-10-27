@@ -1,0 +1,12 @@
+<li id="task_<%= task.id %>">
+  <div class="task">
+    <%= simple_format task.description %>
+
+    <% remote_form_for(task) do |f| %>
+      <p>
+        <%= f.check_box :done, :title => "Mark as Done", :class => "mark_as_done", :id => "task_#{task.id}_done",
+          :onchange => remote_function(:url => task_path(task), :method => :put, :with => "Form.serialize(this.form)") %>
+      </p>
+    <% end %>
+  </div>
+</li>

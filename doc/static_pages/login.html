@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="description" content="Sign up page of 2 Post It." />
+    <meta name="keywords" content="task, list, post it, to do, done, login" />
+    <meta name="author" content="Elomar Nascimento dos Santos" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/2_post_it.css" />
+
+    <script type="text/javascript" src="javascripts/prototype.js"></script>
+    <script type="text/javascript" src="javascripts/livevalidation_prototype.compressed.js"></script>
+
+    <title>2 Post It - Sign Up</title>
+  </head>
+  <body>
+    <p id="header">
+      <img src="images/logo.png" alt="2 Post It" width="283" height="69" />
+    </p>
+
+    <div id="content">
+      <h1>Sign In</h1>
+
+      <form action="user_home.html" method="post">
+        <p>
+          <label for="user_login">Login:</label>
+          <input type="text" id="user_login" />
+        </p>
+
+        <p>
+          <label for="user_password">Password:</label>
+          <input type="password" id="user_password" />
+        </p>
+
+        <p>
+          <input type="checkbox" id="user_remember_me" />
+          <label for="user_remember_me">Remember me</label>
+        </p>
+
+        <p>
+          <input type="submit" value="Sign In" />
+        </p>
+
+        <script type="text/javascript">
+          var login = new LiveValidation('user_login');
+          var password = new LiveValidation('user_password');
+
+          login.add(Validate.Presence, { failureMessage: "How will you sign in without login? :p" })
+          password.add(Validate.Presence, { failureMessage: "Won't you tell me your password?" })
+        </script>
+      </form>
+    </div>
+
+    <p id="footer">
+      Created by 
+      <a href="http://www.elomarns.com/blog/" title="My Personal Blog">Elomar Nascimento dos Santos</a>
+      (<a href="http://www.twitter.com/elomarns" title="My Page on Twitter">@elomarns</a>)
+    </p>
+  </body>
+</html>

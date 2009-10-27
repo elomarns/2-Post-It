@@ -26,18 +26,18 @@
 
       <form action="user_home.html" method="post">
         <p>
-          <label for="user_login">Login:</label>
-          <input type="text" id="user_login" />
+          <label for="login">Login:</label>
+          <input type="text" id="login" />
         </p>
 
         <p>
-          <label for="user_password">Password:</label>
-          <input type="password" id="user_password" />
+          <label for="password">Password:</label>
+          <input type="password" id="password" />
         </p>
 
         <p>
-          <input type="checkbox" id="user_remember_me" />
-          <label for="user_remember_me">Remember me</label>
+          <input type="checkbox" id="remember_me" />
+          <label for="remember_me">Remember me</label>
         </p>
 
         <p>
@@ -45,8 +45,8 @@
         </p>
 
         <script type="text/javascript">
-          var login = new LiveValidation('user_login');
-          var password = new LiveValidation('user_password');
+          var login = new LiveValidation('login');
+          var password = new LiveValidation('password');
 
           login.add(Validate.Presence, { failureMessage: "How will you sign in without login? :p" })
           password.add(Validate.Presence, { failureMessage: "Won't you tell me your password?" })

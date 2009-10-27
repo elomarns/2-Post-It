@@ -1,8 +1,4 @@
-require File.dirname(__FILE__) + '/../test_helper'
-require 'sessions_controller'
-
-# Re-raise errors caught by the controller.
-class SessionsController; def rescue_action(e) raise e end; end
+require 'test_helper'
 
 class SessionsControllerTest < ActionController::TestCase
   # Be sure to include AuthenticatedTestHelper in test/test_helper.rb instead
@@ -11,16 +7,28 @@ class SessionsControllerTest < ActionController::TestCase
 
   fixtures :users
 
-  def test_should_login_and_redirect
-    post :create, :login => 'quentin', :password => 'monkey'
-    assert session[:user_id]
-    assert_response :redirect
+  test "should not sign in an inexistent user" do
+    post :create, :login => "mr_hank", :password => "howdy_ho"
+
+    assert_nil session[:user_id]
+    assert_equal "Your login and/or password is wrong.", flash[:error]
+    assert_response :success
   end
 
-  def test_should_fail_login_and_not_redirect
-    post :create, :login => 'quentin', :password => 'bad password'
+  test "should not sign in an user with wrong password" do
+    post :create, :login => "aaron", :password => "elephant"
+
     assert_nil session[:user_id]
+    assert_equal "Your login and/or password is wrong.", flash[:error]
     assert_response :success
+  end
+
+  test "should sign in an user with correct login and password" do
+    post :create, :login => "aaron", :password => "monkey" 
+
+    assert session[:user_id]
+    assert_equal "Hello, aaron!", flash[:notice]
+    assert_response :redirect
   end
 
   def test_should_logout

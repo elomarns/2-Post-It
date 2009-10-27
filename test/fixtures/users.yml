@@ -22,6 +22,22 @@ maria_jose:
   remember_token_expires_at: <%= 1.days.from_now.to_s %>
   remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
 
+marcos_gurgel:
+  login: mgurgel
+  salt:                      cd3f6e6dd743a49bd9edd0e4d46834e1403e94c1
+  crypted_password:          e48224c34e6dbe92e5467f73986681978e6799d0 # 'nirvana'
+  created_at:                <%= 5.days.ago.to_s :db  %>
+  remember_token_expires_at: <%= 1.days.from_now.to_s %>
+  remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
+
+technoweenie:
+  login: technoweenie
+  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
+  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
+  created_at:                <%= 5.days.ago.to_s :db  %>
+  remember_token_expires_at: <%= 1.days.from_now.to_s %>
+  remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
+
 quentin:
   id:                        1
   login:                     quentin

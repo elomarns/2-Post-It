@@ -20,7 +20,7 @@ class UsersController < ApplicationController
 
         flash[:notice] = "Welcome, #{@user.login}."
 
-        format.html { redirect_back_or_default('/') }
+        format.html { redirect_back_or_default tasks_path }
       else
         format.html { render :action => "new" }
       end

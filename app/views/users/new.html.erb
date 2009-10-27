@@ -1,40 +1,38 @@
-<div id="content" class="user_home">
-  <h1>Sign Up</h1>
+<h1>Sign Up</h1>
 
-  <% @user.password = @user.password_confirmation = nil %>
+<% @user.password = @user.password_confirmation = nil %>
 
-  <% form_for(@user, :url => register_path) do |f|  %>
-    <p>
-      <%= f.label :login, "Login:" %>
-      <%= f.text_field :login %>
-      <%= f.error_message_on :login %>
-    </p>
+<% form_for(@user, :url => register_path) do |f|  %>
+  <p>
+    <%= f.label :login, "Login:" %>
+    <%= f.text_field :login %>
+    <%= f.error_message_on :login %>
+  </p>
 
-    <p>
-      <%= f.label :password, "Password:" %>
-      <%= f.password_field :password %>
-      <%= f.error_message_on :password %>
-    </p>
+  <p>
+    <%= f.label :password, "Password:" %>
+    <%= f.password_field :password %>
+    <%= f.error_message_on :password %>
+  </p>
 
-    <p>
-      <%= f.label :password_confirmation, "Password Confirmation:" %>
-      <%= f.password_field :password_confirmation %>
-      <%= f.error_message_on :password_confirmation %>
-    </p>
+  <p>
+    <%= f.label :password_confirmation, "Password Confirmation:" %>
+    <%= f.password_field :password_confirmation %>
+    <%= f.error_message_on :password_confirmation %>
+  </p>
 
-    <p>
-      <%= f.submit "Sign Up" %>
-    </p>
+  <p>
+    <%= f.submit "Sign Up" %>
+  </p>
 
-    <script type="text/javascript">
-      var login = new LiveValidation('user_login');
-      var password = new LiveValidation('user_password');
-      var password_confirmation = new LiveValidation('user_password_confirmation');
+  <script type="text/javascript">
+    var login = new LiveValidation('user_login');
+    var password = new LiveValidation('user_password');
+    var password_confirmation = new LiveValidation('user_password_confirmation');
 
-      login.add(Validate.Presence, { failureMessage: "No login, no sign up!" })
-      password.add(Validate.Presence, { failureMessage: "Where's your password?" })
-      password_confirmation.add(Validate.Presence, { failureMessage: "Did someone saw this field's value?" })
-      password_confirmation.add(Validate.Confirmation, { match: 'user_password', failureMessage: "Beh! It doesn't match!" } );
-    </script>
-  <% end %>
-</div>
+    login.add(Validate.Presence, { failureMessage: "No login, no sign up!" })
+    password.add(Validate.Presence, { failureMessage: "Where's your password?" })
+    password_confirmation.add(Validate.Presence, { failureMessage: "Did someone saw this field's value?" })
+    password_confirmation.add(Validate.Confirmation, { match: 'user_password', failureMessage: "Beh! It doesn't match!" } );
+  </script>
+<% end %>

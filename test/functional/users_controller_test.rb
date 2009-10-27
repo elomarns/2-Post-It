@@ -81,7 +81,7 @@ class UsersControllerTest < ActionController::TestCase
     
     assert_not_nil flash[:notice]
     assert_equal "Welcome, #{assigns(:user).login}.", flash[:notice]
-    assert_redirected_to "/"
+    assert_redirected_to tasks_path
   end
 
 end

@@ -33,8 +33,12 @@ class TasksController < ApplicationController
     @task = Task.new(params[:task])
 
     render :update do |page|
-      page.insert_html :bottom, "tasks", :partial =>  @task if @task.save
+      if @task.save
+        page.insert_html :bottom, "tasks", :partial =>  @task
+        page.draggable "task_#{@task.id}"
+      end
     end
+    
   end
 
   # PUT /tasks/1

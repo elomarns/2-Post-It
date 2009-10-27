@@ -1,2 +1,4 @@
 config/initializers/site_keys.rb
-log/*.log
+log/development.log
+log/test.log
+log/production.log

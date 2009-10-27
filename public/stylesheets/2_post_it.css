@@ -158,7 +158,7 @@ div#content ul li div.task input.mark_as_done
 /*
   New Task
 */
-div#content ul li div#new_task.task textarea
+div.task form#new_task textarea#task_description
 {
   border: 0;
   background: #FF9;
@@ -166,6 +166,7 @@ div#content ul li div#new_task.task textarea
   font-family: Arial, sans-serif;
   font-size: 18px;
   height: 130px;
+  overflow:hidden;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -219,7 +220,7 @@ textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWith
   border: 1px solid #FF0000;
 }
 
-div#content ul li div#new_task.task form textarea.LV_invalid_field
+div#content form#new_task p textarea.LV_invalid_field
 {
   color: #F00;
   text-decoration: blink;

@@ -1,9 +1,6 @@
 require 'test_helper'
 
 class UsersControllerTest < ActionController::TestCase
-  # Be sure to include AuthenticatedTestHelper in test/test_helper.rb instead
-  # Then, you can remove it from this and the units test.
-  include AuthenticatedTestHelper
 
   test "should show sign up page" do
     get :new
@@ -81,7 +78,40 @@ class UsersControllerTest < ActionController::TestCase
     
     assert_not_nil flash[:notice]
     assert_equal "Welcome, #{assigns(:user).login}.", flash[:notice]
-    assert_redirected_to tasks_path
+    assert_redirected_to home_path
   end
+
+  test "should redirect unlogged users to login page" do
+    get :home
+
+    assert_redirected_to login_path
+  end
+
+  test "should show user home page" do
+    login_as :daniel_marques
+
+    get :home
+
+    assert_not_nil assigns(:tasks)
+    assert_equal users(:daniel_marques).tasks, assigns(:tasks)
+
+    assert_not_nil assigns(:task)
+    assert assigns(:task).new_record?
+    assert_equal "New Task", assigns(:task).description
+
+    assert_template "home"
+    assert_response :success
+  end
+
+  test "should show new task form" do
+    login_as :aaron
+
+    get :home
+
+    assert_select "form#new_task", :count => 1
+    assert_select "form#new_task p", :count => 1
+    assert_select "form#new_task textarea", :count => 1
+  end
+
 
 end

@@ -1,15 +1,5 @@
 class TasksController < ApplicationController
-  # GET /tasks
-  # GET /tasks.xml
-  def index
-    @tasks = Task.find_all_by_done(false)
-    @task = Task.new(:description => "New Task")
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @tasks }
-    end
-  end
+  before_filter :login_required, :only => [ :create, :update ]
 
   # GET /tasks/1
   # GET /tasks/1.xml
@@ -28,9 +18,8 @@ class TasksController < ApplicationController
   end
 
   # POST /tasks
-  # POST /tasks.xml
   def create
-    @task = Task.new(params[:task])
+    @task = current_user.tasks.new(params[:task])
 
     render :update do |page|
       if @task.save
@@ -38,7 +27,6 @@ class TasksController < ApplicationController
         page.draggable "task_#{@task.id}"
       end
     end
-    
   end
 
   # PUT /tasks/1

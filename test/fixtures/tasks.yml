@@ -1,7 +1,9 @@
 learn_jquery:
+  user: daniel_marques
   description: Learn Jquery.
   done: false
 
 study_ajax:
+  user: douglas_afonso
   description: Study more about Ajax.
   done: false

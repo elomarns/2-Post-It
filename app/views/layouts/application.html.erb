@@ -20,7 +20,7 @@
       <%= image_tag "logo.png", :alt => "2 Post It", :width => "283", :height => "69" %>
     </p>
 
-    <div id="content"<%= controller.class == TasksController ? " class=\"user_home\"" : "" %>>
+    <div id="content"<%= controller.action_name == "home" ? " class=\"user_home\"" : "" %>>
       <% unless flash[:notice].blank? %>
         <p id="notice_message">
           <%= flash[:notice] %>

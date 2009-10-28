@@ -1,7 +1,5 @@
 # This controller handles the login/logout function of the site.  
 class SessionsController < ApplicationController
-  # Be sure to include AuthenticationSystem in Application Controller instead
-  include AuthenticatedSystem
 
   def new
   end
@@ -19,7 +17,7 @@ class SessionsController < ApplicationController
 
       flash[:notice] = "Hello, #{user.login}!"
 
-      redirect_back_or_default tasks_path
+      redirect_back_or_default home_path
     else
       note_failed_signin
 

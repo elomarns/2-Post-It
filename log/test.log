@@ -10897,3 +10897,1991 @@ Processing UsersController#new (for 0.0.0.0 at 2009-10-27 13:52:09) [GET]
 Rendering template within layouts/application
 Rendering users/new
 Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mSQL (19.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 11:38:43', 'f', 'Register the domain to use with 2 Post It.', 1371930435, '2009-10-28 11:38:43')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 736185847) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1419661526) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mTask Load (0.6ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1282546845) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+  [4;35;1mTask Update (0.5ms)[0m   [0mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 11:38:43' WHERE "id" = 1282546845[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1773772451) [0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'mgurgel') LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('58aa77583b81794e559bf66d2583ba93e260933d', '2009-10-28 11:38:44', '99b6a96eb0a673a9edd042913f851eb1cd67ab98', NULL, NULL, 'vivimlima', NULL, '2009-10-28 11:38:44')[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima' AND "users".id <> 1913091174) LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin2' AND "users".id <> 1) LIMIT 1[0m
+  [4;35;1mUser Update (23.5ms)[0m   [0mUPDATE "users" SET "login" = 'quentin2', "updated_at" = '2009-10-28 11:38:44' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'quentin2') LIMIT 1[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '103c6cd1e13137cbea995b499c1402852a3837cc', "remember_token_expires_at" = '2009-11-11 11:38:44', "updated_at" = '2009-10-28 11:38:44' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = 'df75f16f59cd5615af3f3b11fa62292fffcfac25', "remember_token_expires_at" = '2009-11-04 11:38:44', "updated_at" = '2009-10-28 11:38:44' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '84ba0b7a1e93cc770894f4257e05be6c8a40ed95', "remember_token_expires_at" = '2009-11-04 11:38:44', "updated_at" = '2009-10-28 11:38:44' WHERE "id" = 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin' AND "users".id <> 1) LIMIT 1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "crypted_password" = '837613e7268af0b0e5d536cb39c2315a5cc3fd89', "updated_at" = '2009-10-28 11:38:44' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 407713203) [0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '76f13f7e7237b24dba118455a13ed733d7a5bd37', "remember_token_expires_at" = '2009-11-11 11:38:44', "updated_at" = '2009-10-28 11:38:44' WHERE "id" = 407713203[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '05a428e93dedaf0c5201183e8a2e92ad2c7ef3d0', "remember_token_expires_at" = '2009-11-11 11:38:44', "updated_at" = '2009-10-28 11:38:44' WHERE "id" = 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:38:44' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 11:40:35', 'f', 'Register the domain to use with 2 Post It.', 1371930435, '2009-10-28 11:40:35')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 736185847) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1419661526) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mTask Load (0.6ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1282546845) [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+  [4;36;1mTask Update (0.5ms)[0m   [0;1mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 11:40:35' WHERE "id" = 1282546845[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1773772451) [0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'mgurgel') LIMIT 1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima') LIMIT 1[0m
+  [4;35;1mUser Create (0.7ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('7a8a539df79226fa6a7adf64d60699cad3586ed0', '2009-10-28 11:40:36', '11c6759005ad1070e821472b8a893d8b4a26d1d9', NULL, NULL, 'vivimlima', NULL, '2009-10-28 11:40:36')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima' AND "users".id <> 1913091174) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin2' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "login" = 'quentin2', "updated_at" = '2009-10-28 11:40:36' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin2') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '3bd28a82440671defbdf8cc8e1550ffd05c56aa5', "remember_token_expires_at" = '2009-11-11 11:40:36', "updated_at" = '2009-10-28 11:40:36' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '8e957642b5fbc8402e8b7c4fc1b8cf90b2468a1a', "remember_token_expires_at" = '2009-11-04 11:40:36', "updated_at" = '2009-10-28 11:40:36' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "remember_token" = 'bd54e1a5a8d07a4c3a8bfced53c263b41a820728', "remember_token_expires_at" = '2009-11-04 11:40:36', "updated_at" = '2009-10-28 11:40:36' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "crypted_password" = '837613e7268af0b0e5d536cb39c2315a5cc3fd89', "updated_at" = '2009-10-28 11:40:36' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 407713203) [0m
+  [4;35;1mUser Update (0.6ms)[0m   [0mUPDATE "users" SET "remember_token" = '0cd675a847ed897006d3913de7da046b8aae489c', "remember_token_expires_at" = '2009-11-11 11:40:36', "updated_at" = '2009-10-28 11:40:36' WHERE "id" = 407713203[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '0358a6a5bd8f76e250bd250989062e97717cfdf4', "remember_token_expires_at" = '2009-11-11 11:40:36', "updated_at" = '2009-10-28 11:40:36' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:40:36' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 11:41:42', 'f', 'Register the domain to use with 2 Post It.', 1371930435, '2009-10-28 11:41:42')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 736185847) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1419661526) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mTask Load (0.8ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1282546845) [0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+  [4;36;1mTask Update (0.6ms)[0m   [0;1mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 1282546845[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1773772451) [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'mgurgel') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima') LIMIT 1[0m
+  [4;35;1mUser Create (0.7ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('8a5d3edcd5a75390c7d0288eaed352bdf6dd9fa2', '2009-10-28 11:41:42', 'c005c0894be284425a2a584b30db23803742205d', NULL, NULL, 'vivimlima', NULL, '2009-10-28 11:41:42')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima' AND "users".id <> 1913091174) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin2' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.8ms)[0m   [0;1mUPDATE "users" SET "login" = 'quentin2', "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin2') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '59fbdd69df8e83e1538334fbf2e95632336f76a3', "remember_token_expires_at" = '2009-11-11 11:41:42', "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'f8a989e4a83efcc74eb1ded63636d88bd651cec1', "remember_token_expires_at" = '2009-11-04 11:41:42', "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '24f43a27f54d31bc2f7370ab2a8f3317a215ad26', "remember_token_expires_at" = '2009-11-04 11:41:42', "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "crypted_password" = '837613e7268af0b0e5d536cb39c2315a5cc3fd89', "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 407713203) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '425e6876fb0d29f98fdf0c7dbb5bbab70beda30b', "remember_token_expires_at" = '2009-11-11 11:41:42', "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 407713203[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.7ms)[0m   [0mUPDATE "users" SET "remember_token" = 'c59964393b0aa506e3598f5ab9622ff6fc1c90e3', "remember_token_expires_at" = '2009-11-11 11:41:42', "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:41:42' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.6ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 11:42:04', 'f', 'Register the domain to use with 2 Post It.', 1371930435, '2009-10-28 11:42:04')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 736185847) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1419661526) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1773772451) [0m
+  [4;35;1mTask Create (0.5ms)[0m   [0mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 11:42:04', 'f', 'Read the book "Don''t make me Think".', 1773772451, '2009-10-28 11:42:04')[0m
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1282546845) [0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+  [4;36;1mTask Update (0.6ms)[0m   [0;1mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 11:42:04' WHERE "id" = 1282546845[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1773772451) [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'mgurgel') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima') LIMIT 1[0m
+  [4;35;1mUser Create (0.6ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('e2c9058b7355ca8c516d73cfd971d3192acd860c', '2009-10-28 11:42:05', 'c62cbcade7e30b90803e6bc9d084ffcc3c12496f', NULL, NULL, 'vivimlima', NULL, '2009-10-28 11:42:05')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima' AND "users".id <> 1913091174) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin2' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "login" = 'quentin2', "updated_at" = '2009-10-28 11:42:05' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin2') LIMIT 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'abed9a712ef978a18b481f681f5fda5f074d68e7', "remember_token_expires_at" = '2009-11-11 11:42:05', "updated_at" = '2009-10-28 11:42:05' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.6ms)[0m   [0mUPDATE "users" SET "remember_token" = '1abdf9ab8b680f81ee7bc32f55e926d51a23e603', "remember_token_expires_at" = '2009-11-04 11:42:05', "updated_at" = '2009-10-28 11:42:05' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'bd5eaef29094ba8be712c516222e429a4d04785b', "remember_token_expires_at" = '2009-11-04 11:42:05', "updated_at" = '2009-10-28 11:42:05' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE "users" SET "crypted_password" = '837613e7268af0b0e5d536cb39c2315a5cc3fd89', "updated_at" = '2009-10-28 11:42:05' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 407713203) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '480041c3646d1128a269b5b2d02128e84a4cee99', "remember_token_expires_at" = '2009-11-11 11:42:05', "updated_at" = '2009-10-28 11:42:05' WHERE "id" = 407713203[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '47815ddcfb6e29940c852a04c2d8addbde668dd9', "remember_token_expires_at" = '2009-11-11 11:42:05', "updated_at" = '2009-10-28 11:42:05' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:42:05' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.6ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 11:43:20', 'f', 'Register the domain to use with 2 Post It.', 1371930435, '2009-10-28 11:43:20')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 736185847) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1419661526) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1773772451) [0m
+  [4;35;1mTask Create (0.5ms)[0m   [0mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 11:43:20', 'f', 'Read the book "Don''t make me Think".', 1773772451, '2009-10-28 11:43:20')[0m
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 1282546845) [0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+  [4;36;1mTask Update (0.5ms)[0m   [0;1mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 1282546845[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1773772451) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'mgurgel') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima') LIMIT 1[0m
+  [4;35;1mUser Create (0.7ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('8bf34a0332b75461bf9f6d0fcb8e18bba65582f7', '2009-10-28 11:43:20', '3ccd7587f8a0eb21031326322481833da7fcdce5', NULL, NULL, 'vivimlima', NULL, '2009-10-28 11:43:20')[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'vivimlima' AND "users".id <> 1913091174) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin2' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.7ms)[0m   [0;1mUPDATE "users" SET "login" = 'quentin2', "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin2') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "remember_token" = '468b4bde57564658a44c9d623b856c578b2537d2', "remember_token_expires_at" = '2009-11-11 11:43:20', "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.6ms)[0m   [0mUPDATE "users" SET "remember_token" = 'b7e46b405002f4536bebec774dd5d066001fdd2a', "remember_token_expires_at" = '2009-11-04 11:43:20', "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.6ms)[0m   [0mUPDATE "users" SET "remember_token" = '2af85bebe56914537c3f995de10386be3cd74ccf', "remember_token_expires_at" = '2009-11-04 11:43:20', "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'bighi') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'douglas_afonso') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'nerdaniel') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'elomarns') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'xaxa') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'quentin' AND "users".id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE "users" SET "crypted_password" = '837613e7268af0b0e5d536cb39c2315a5cc3fd89', "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 407713203) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'cf9655c72b2aa02235aadbbf0b6e75c6a741e46c', "remember_token_expires_at" = '2009-11-11 11:43:20', "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 407713203[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '67f4bb8a3adfa0a82809cf582186263f7c84ae5f', "remember_token_expires_at" = '2009-11-11 11:43:20', "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:43:20' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 09:48:52) [GET]
+Redirected to http://test.host/
+Completed in 4ms (DB: 6) | 302 Found [http://test.host/session]
+  [4;35;1mUser Load (1.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '0513d62271ac2055f2aeda6ccedae43bc5a54061', "remember_token_expires_at" = '2009-11-11 11:48:52', "updated_at" = '2009-10-28 11:48:52' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:48:52) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 59ms (View: 58, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'invalid_auth_token') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '171294370c77e91d6d1db4ca878142771f7528b5', "remember_token_expires_at" = '2009-11-11 11:48:52', "updated_at" = '2009-10-28 11:48:52' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token_expires_at" = '2009-10-28 11:43:52', "updated_at" = '2009-10-28 11:48:52' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:48:52) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '171294370c77e91d6d1db4ca878142771f7528b5') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (1.3ms)[0m   [0mUPDATE "users" SET "remember_token" = 'c305c7bee4b0cb514ca50314808657c53ceca875', "remember_token_expires_at" = '2009-11-11 11:48:52', "updated_at" = '2009-10-28 11:48:52' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:48:52) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 3) | 200 OK [http://test.host/session/new]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'c305c7bee4b0cb514ca50314808657c53ceca875') LIMIT 1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:48:52' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 09:48:52) [GET]
+Redirected to http://test.host/
+Completed in 1ms (DB: 2) | 302 Found [http://test.host/session]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"0"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:48:52' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 8ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=0]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"login"=>"mr_hank", "password"=>"howdy_ho"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'mr_hank') LIMIT 1[0m
+Failed login for 'mr_hank' from 0.0.0.0 at Wed Oct 28 11:48:52 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://test.host/session?login=mr_hank&password=howdy_ho]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"elephant"}
+  [4;36;1mUser Load (1.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Failed login for 'aaron' from 0.0.0.0 at Wed Oct 28 11:48:52 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://test.host/session?login=aaron&password=elephant]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"1"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '0e52954d96aef2db88082c2ff9e8b5fb22a6bc80', "remember_token_expires_at" = '2009-11-11 11:48:52', "updated_at" = '2009-10-28 11:48:52' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 10ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=1]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"monkey"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Redirected to http://test.host/home
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/session?login=aaron&password=monkey]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"task"=>{"description"=>"Deploy 2 Post It on Dreamhost VPS."}}
+  [4;35;1mTask Load (0.7ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2009-10-28 09:48:52) [PUT]
+  Parameters: {"id"=>"981355102", "task"=>{"done"=>true}}
+  [4;36;1mTask Load (0.7ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1913091173) [0m
+  [4;36;1mTask Update (0.6ms)[0m   [0;1mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 11:48:52' WHERE "id" = 981355102[0m
+Completed in 12ms (View: 8, DB: 3) | 200 OK [http://test.host/tasks/981355102?task%5Bdone%5D=true]
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"task"=>{"description"=>"Create another website that make me rich, since this one won't give me any money. How about a new video sharing website ? NOT!"}}
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"task"=>{"description"=>nil}}
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-10-28 09:48:52) [GET]
+  [4;36;1mTask Load (0.8ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Rendered tasks/_task (7.4ms)
+Rendered tasks/_task (6.7ms)
+Completed in 34ms (View: 31, DB: 3) | 200 OK [http://test.host/tasks]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-10-28 09:48:52) [GET]
+  [4;35;1mTask Load (0.7ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') [0m
+Rendering template within layouts/application
+Rendering tasks/index
+Rendered tasks/_task (6.2ms)
+Rendered tasks/_task (5.9ms)
+Completed in 26ms (View: 23, DB: 1) | 200 OK [http://test.host/tasks]
+  [4;36;1mTask Load (0.8ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:48:52) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"trovaoazul", "login"=>"carlos_almeida", "password"=>"trovaoazul"}}
+  [4;36;1mUser Load (3.7ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'carlos_almeida') LIMIT 1[0m
+  [4;35;1mUser Create (0.7ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('0b22bcddf8063b7eb19e550ee7ddf6bc6c013983', '2009-10-28 11:48:53', '9118e49495c4584cb8ca76c523e17b2b8f6d331f', NULL, NULL, 'carlos_almeida', NULL, '2009-10-28 11:48:53')[0m
+Redirected to http://test.host/home
+Completed in 315ms (DB: 6) | 302 Found [http://test.host/users?user%5Blogin%5D=carlos_almeida&user%5Bpassword%5D=trovaoazul&user%5Bpassword_confirmation%5D=trovaoazul]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:48:53) [POST]
+  Parameters: {"user"=>{"user"=>"maria_jose", "password_confirmation"=>"salvador", "password"=>"salvador"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=salvador&user%5Bpassword_confirmation%5D=salvador&user%5Buser%5D=maria_jose]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:48:53) [POST]
+  Parameters: {"user"=>{"user"=>nil, "password_confirmation"=>"elomarnsrocks", "password"=>"elomarnsrocks"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 19ms (View: 15, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=elomarnsrocks&user%5Bpassword_confirmation%5D=elomarnsrocks&user%5Buser%5D=]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:48:53) [POST]
+  Parameters: {"user"=>{"user"=>"anothersal", "password_confirmation"=>nil, "password"=>"mybirthday"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 29ms (View: 25, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=mybirthday&user%5Bpassword_confirmation%5D=&user%5Buser%5D=anothersal]
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:48:53) [POST]
+  Parameters: {"user"=>{"user"=>"ecsavier", "password_confirmation"=>"29041985", "password"=>"290485"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 22ms (View: 19, DB: 2) | 200 OK [http://test.host/users?user%5Bpassword%5D=290485&user%5Bpassword_confirmation%5D=29041985&user%5Buser%5D=ecsavier]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:48:53) [POST]
+  Parameters: {"user"=>{"user"=>"carla_almeida", "password_confirmation"=>"very_weak_password", "password"=>nil}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 23ms (View: 19, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=very_weak_password&user%5Buser%5D=carla_almeida]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 09:48:53) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 09:48:53) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 09:48:53) [GET]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) LIMIT 1[0m
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 103719225) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (6.1ms)
+Completed in 26ms (View: 21, DB: 2) | 200 OK [http://test.host/home]
+  [4;35;1mTask Load (0.7ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks".user_id = 103719225) [0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 09:56:07) [GET]
+Redirected to http://test.host/
+Completed in 4ms (DB: 6) | 302 Found [http://test.host/session]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '0480e249a4adcfb10978fda0d3aa55c0c4d8b06f', "remember_token_expires_at" = '2009-11-11 11:56:07', "updated_at" = '2009-10-28 11:56:07' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:56:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 17ms (View: 16, DB: 1) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'invalid_auth_token') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'b3a95f33df67352bb9a9607042ab0bb6e2efa62c', "remember_token_expires_at" = '2009-11-11 11:56:07', "updated_at" = '2009-10-28 11:56:07' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token_expires_at" = '2009-10-28 11:51:07', "updated_at" = '2009-10-28 11:56:07' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:56:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'b3a95f33df67352bb9a9607042ab0bb6e2efa62c') LIMIT 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'fad087a279970247e8a1fdb414029a192275600c', "remember_token_expires_at" = '2009-11-11 11:56:07', "updated_at" = '2009-10-28 11:56:07' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:56:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'fad087a279970247e8a1fdb414029a192275600c') LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:56:07' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 09:56:07) [GET]
+Redirected to http://test.host/
+Completed in 1ms (DB: 2) | 302 Found [http://test.host/session]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:56:07) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"0"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:56:07' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 7ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=0]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:56:07) [POST]
+  Parameters: {"login"=>"mr_hank", "password"=>"howdy_ho"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'mr_hank') LIMIT 1[0m
+Failed login for 'mr_hank' from 0.0.0.0 at Wed Oct 28 11:56:07 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://test.host/session?login=mr_hank&password=howdy_ho]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:56:07) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"elephant"}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Failed login for 'aaron' from 0.0.0.0 at Wed Oct 28 11:56:07 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 17ms (View: 13, DB: 1) | 200 OK [http://test.host/session?login=aaron&password=elephant]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:56:07) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"1"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "remember_token" = 'a78447d032cdabdbef621ccc17e83c4c0c0c11a4', "remember_token_expires_at" = '2009-11-11 11:56:07', "updated_at" = '2009-10-28 11:56:07' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 10ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=1]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:56:07) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"monkey"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Redirected to http://test.host/home
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/session?login=aaron&password=monkey]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 09:56:07) [POST]
+  Parameters: {"task"=>{"description"=>"Deploy 2 Post It on Dreamhost VPS."}}
+Redirected to http://test.host/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/tasks?task%5Bdescription%5D=Deploy+2+Post+It+on+Dreamhost+VPS.]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mTask Load (0.8ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2009-10-28 09:56:07) [PUT]
+  Parameters: {"id"=>"981355102", "task"=>{"done"=>true}}
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1913091173) [0m
+  [4;35;1mTask Update (0.4ms)[0m   [0mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 11:56:07' WHERE "id" = 981355102[0m
+Completed in 13ms (View: 7, DB: 3) | 200 OK [http://test.host/tasks/981355102?task%5Bdone%5D=true]
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 09:56:07) [POST]
+  Parameters: {"task"=>{"description"=>"Create another website that make me rich, since this one won't give me any money. How about a new video sharing website ? NOT!"}}
+Redirected to http://test.host/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/tasks?task%5Bdescription%5D=Create+another+website+that+make+me+rich%2C+since+this+one+won%27t+give+me+any+money.+How+about+a+new+video+sharing+website+%3F+NOT%21]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:56:07) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"trovaoazul", "login"=>"carlos_almeida", "password"=>"trovaoazul"}}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'carlos_almeida') LIMIT 1[0m
+  [4;35;1mUser Create (0.6ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('284ff1bc4a463e55c0abcd5df45d033f055b0fe5', '2009-10-28 11:56:08', '3d912638852fcdb12c875b0c4e68bec095776446', NULL, NULL, 'carlos_almeida', NULL, '2009-10-28 11:56:08')[0m
+Redirected to http://test.host/home
+Completed in 313ms (DB: 2) | 302 Found [http://test.host/users?user%5Blogin%5D=carlos_almeida&user%5Bpassword%5D=trovaoazul&user%5Bpassword_confirmation%5D=trovaoazul]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:56:08) [POST]
+  Parameters: {"user"=>{"user"=>"maria_jose", "password_confirmation"=>"salvador", "password"=>"salvador"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=salvador&user%5Bpassword_confirmation%5D=salvador&user%5Buser%5D=maria_jose]
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:56:08) [POST]
+  Parameters: {"user"=>{"user"=>nil, "password_confirmation"=>"elomarnsrocks", "password"=>"elomarnsrocks"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 16, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=elomarnsrocks&user%5Bpassword_confirmation%5D=elomarnsrocks&user%5Buser%5D=]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:56:08) [POST]
+  Parameters: {"user"=>{"user"=>"anothersal", "password_confirmation"=>nil, "password"=>"mybirthday"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=mybirthday&user%5Bpassword_confirmation%5D=&user%5Buser%5D=anothersal]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:56:08) [POST]
+  Parameters: {"user"=>{"user"=>"ecsavier", "password_confirmation"=>"29041985", "password"=>"290485"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=290485&user%5Bpassword_confirmation%5D=29041985&user%5Buser%5D=ecsavier]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:56:08) [POST]
+  Parameters: {"user"=>{"user"=>"carla_almeida", "password_confirmation"=>"very_weak_password", "password"=>nil}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=very_weak_password&user%5Buser%5D=carla_almeida]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+
+
+Processing UsersController#index (for 0.0.0.0 at 2009-10-28 09:56:08) [GET]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 09:56:08) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 09:56:08) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 09:56:08) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 103719225) LIMIT 1[0m
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 103719225) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (7.7ms)
+Completed in 29ms (View: 23, DB: 2) | 200 OK [http://test.host/home]
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks".user_id = 103719225) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 09:58:02) [GET]
+Redirected to http://test.host/
+Completed in 4ms (DB: 6) | 302 Found [http://test.host/session]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.7ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '13cb6a0a37b85d1d55b0c3cd3bbe15b02f333c85', "remember_token_expires_at" = '2009-11-11 11:58:02', "updated_at" = '2009-10-28 11:58:02' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:58:02) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 17ms (View: 16, DB: 1) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'invalid_auth_token') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'e7789a6494913bf796872be59c2762208e3b3e83', "remember_token_expires_at" = '2009-11-11 11:58:02', "updated_at" = '2009-10-28 11:58:02' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token_expires_at" = '2009-10-28 11:53:02', "updated_at" = '2009-10-28 11:58:02' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:58:02) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'e7789a6494913bf796872be59c2762208e3b3e83') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'a78ba89c52fc70873b6d81932538f6759d227a3a', "remember_token_expires_at" = '2009-11-11 11:58:02', "updated_at" = '2009-10-28 11:58:02' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 09:58:02) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = 'a78ba89c52fc70873b6d81932538f6759d227a3a') LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:58:02' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 09:58:02) [GET]
+Redirected to http://test.host/
+Completed in 1ms (DB: 2) | 302 Found [http://test.host/session]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:58:02) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"0"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 11:58:02' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 7ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=0]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:58:02) [POST]
+  Parameters: {"login"=>"mr_hank", "password"=>"howdy_ho"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'mr_hank') LIMIT 1[0m
+Failed login for 'mr_hank' from 0.0.0.0 at Wed Oct 28 11:58:02 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://test.host/session?login=mr_hank&password=howdy_ho]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:58:02) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"elephant"}
+  [4;36;1mUser Load (2.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Failed login for 'aaron' from 0.0.0.0 at Wed Oct 28 11:58:02 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 24ms (View: 16, DB: 2) | 200 OK [http://test.host/session?login=aaron&password=elephant]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:58:02) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"1"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.7ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '321507a9da3ef8ece7aba90af3121a00cf94e20c', "remember_token_expires_at" = '2009-11-11 11:58:02', "updated_at" = '2009-10-28 11:58:02' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 10ms (DB: 2) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=1]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 09:58:02) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"monkey"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Redirected to http://test.host/home
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/session?login=aaron&password=monkey]
+  [4;36;1mTask Load (0.7ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2009-10-28 09:58:02) [PUT]
+  Parameters: {"id"=>"981355102", "task"=>{"done"=>true}}
+Redirected to http://test.host/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/tasks/981355102?task%5Bdone%5D=true]
+  [4;35;1mTask Load (0.6ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 09:58:02) [POST]
+  Parameters: {"task"=>{"description"=>"Create another website that make me rich, since this one won't give me any money. How about a new video sharing website ? NOT!"}}
+Redirected to http://test.host/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/tasks?task%5Bdescription%5D=Create+another+website+that+make+me+rich%2C+since+this+one+won%27t+give+me+any+money.+How+about+a+new+video+sharing+website+%3F+NOT%21]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:58:02) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"trovaoazul", "login"=>"carlos_almeida", "password"=>"trovaoazul"}}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'carlos_almeida') LIMIT 1[0m
+  [4;36;1mUser Create (0.7ms)[0m   [0;1mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('5e34c47f9ffaf0430a259abe31e625c932a4272a', '2009-10-28 11:58:03', 'dc09ece09d7256b9575f648bab9967ea33e8b9d5', NULL, NULL, 'carlos_almeida', NULL, '2009-10-28 11:58:03')[0m
+Redirected to http://test.host/home
+Completed in 148ms (DB: 2) | 302 Found [http://test.host/users?user%5Blogin%5D=carlos_almeida&user%5Bpassword%5D=trovaoazul&user%5Bpassword_confirmation%5D=trovaoazul]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:58:03) [POST]
+  Parameters: {"user"=>{"user"=>"maria_jose", "password_confirmation"=>"salvador", "password"=>"salvador"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 189ms (View: 185, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=salvador&user%5Bpassword_confirmation%5D=salvador&user%5Buser%5D=maria_jose]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:58:03) [POST]
+  Parameters: {"user"=>{"user"=>nil, "password_confirmation"=>"elomarnsrocks", "password"=>"elomarnsrocks"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 21ms (View: 16, DB: 2) | 200 OK [http://test.host/users?user%5Bpassword%5D=elomarnsrocks&user%5Bpassword_confirmation%5D=elomarnsrocks&user%5Buser%5D=]
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:58:03) [POST]
+  Parameters: {"user"=>{"user"=>"anothersal", "password_confirmation"=>nil, "password"=>"mybirthday"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=mybirthday&user%5Bpassword_confirmation%5D=&user%5Buser%5D=anothersal]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:58:03) [POST]
+  Parameters: {"user"=>{"user"=>"ecsavier", "password_confirmation"=>"29041985", "password"=>"290485"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=290485&user%5Bpassword_confirmation%5D=29041985&user%5Buser%5D=ecsavier]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 09:58:03) [POST]
+  Parameters: {"user"=>{"user"=>"carla_almeida", "password_confirmation"=>"very_weak_password", "password"=>nil}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=very_weak_password&user%5Buser%5D=carla_almeida]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 09:58:03) [GET]
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 2) [0m
+Rendering template within layouts/application
+Rendering users/home
+Completed in 21ms (View: 15, DB: 2) | 200 OK [http://test.host/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 09:58:03) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 09:58:03) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 09:58:03) [GET]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) LIMIT 1[0m
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 103719225) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (7.6ms)
+Completed in 22ms (View: 18, DB: 2) | 200 OK [http://test.host/home]
+  [4;35;1mTask Load (0.7ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks".user_id = 103719225) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 10:00:09) [GET]
+Redirected to http://test.host/
+Completed in 4ms (DB: 6) | 302 Found [http://test.host/session]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '30d0365b103ce35f429d24588304d4d429dbd5d8', "remember_token_expires_at" = '2009-11-11 12:00:09', "updated_at" = '2009-10-28 12:00:09' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:00:09) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 17ms (View: 17, DB: 1) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'invalid_auth_token') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '8b145f3d11bedda3b403f453c621a6c2ed371ab6', "remember_token_expires_at" = '2009-11-11 12:00:09', "updated_at" = '2009-10-28 12:00:09' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token_expires_at" = '2009-10-28 11:55:09', "updated_at" = '2009-10-28 12:00:09' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:00:09) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '8b145f3d11bedda3b403f453c621a6c2ed371ab6') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '1210d8b8c891d7152c7da120b8bd7f63b5c37367', "remember_token_expires_at" = '2009-11-11 12:00:09', "updated_at" = '2009-10-28 12:00:09' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:00:09) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '1210d8b8c891d7152c7da120b8bd7f63b5c37367') LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 12:00:09' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 10:00:09) [GET]
+Redirected to http://test.host/
+Completed in 1ms (DB: 2) | 302 Found [http://test.host/session]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:09) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"0"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 12:00:09' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 7ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=0]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:09) [POST]
+  Parameters: {"login"=>"mr_hank", "password"=>"howdy_ho"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'mr_hank') LIMIT 1[0m
+Failed login for 'mr_hank' from 0.0.0.0 at Wed Oct 28 12:00:09 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://test.host/session?login=mr_hank&password=howdy_ho]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:09) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"elephant"}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Failed login for 'aaron' from 0.0.0.0 at Wed Oct 28 12:00:09 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 21ms (View: 17, DB: 1) | 200 OK [http://test.host/session?login=aaron&password=elephant]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:09) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"1"}
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '2c20a92ddb3f8df3c591cdec422fb1320fdc072c', "remember_token_expires_at" = '2009-11-11 12:00:09', "updated_at" = '2009-10-28 12:00:09' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 9ms (DB: 2) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=1]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:09) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"monkey"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Redirected to http://test.host/home
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/session?login=aaron&password=monkey]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 10:00:09) [POST]
+  Parameters: {"task"=>{"description"=>"Deploy 2 Post It on Dreamhost VPS."}}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 12:00:09', 'f', 'Deploy 2 Post It on Dreamhost VPS.', 1371930435, '2009-10-28 12:00:09')[0m
+Rendered tasks/_task (7.9ms)
+Completed in 26ms (View: 15, DB: 3) | 200 OK [http://test.host/tasks?task%5Bdescription%5D=Deploy+2+Post+It+on+Dreamhost+VPS.]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mTask Load (0.6ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2009-10-28 10:00:09) [PUT]
+  Parameters: {"id"=>"981355102", "task"=>{"done"=>true}}
+Redirected to http://test.host/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/tasks/981355102?task%5Bdone%5D=true]
+  [4;35;1mTask Load (0.6ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:09) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"trovaoazul", "login"=>"carlos_almeida", "password"=>"trovaoazul"}}
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'carlos_almeida') LIMIT 1[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('19031807c9dab88f500aaf856e33c54c3cc9c6c8', '2009-10-28 12:00:09', 'c9a3b0cfa9df1670816b1b85b1954b09a003600b', NULL, NULL, 'carlos_almeida', NULL, '2009-10-28 12:00:09')[0m
+Redirected to http://test.host/home
+Completed in 315ms (DB: 3) | 302 Found [http://test.host/users?user%5Blogin%5D=carlos_almeida&user%5Bpassword%5D=trovaoazul&user%5Bpassword_confirmation%5D=trovaoazul]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:09) [POST]
+  Parameters: {"user"=>{"user"=>"maria_jose", "password_confirmation"=>"salvador", "password"=>"salvador"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=salvador&user%5Bpassword_confirmation%5D=salvador&user%5Buser%5D=maria_jose]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:10) [POST]
+  Parameters: {"user"=>{"user"=>nil, "password_confirmation"=>"elomarnsrocks", "password"=>"elomarnsrocks"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 16, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=elomarnsrocks&user%5Bpassword_confirmation%5D=elomarnsrocks&user%5Buser%5D=]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:10) [POST]
+  Parameters: {"user"=>{"user"=>"anothersal", "password_confirmation"=>nil, "password"=>"mybirthday"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=mybirthday&user%5Bpassword_confirmation%5D=&user%5Buser%5D=anothersal]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:10) [POST]
+  Parameters: {"user"=>{"user"=>"ecsavier", "password_confirmation"=>"29041985", "password"=>"290485"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=290485&user%5Bpassword_confirmation%5D=29041985&user%5Buser%5D=ecsavier]
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:10) [POST]
+  Parameters: {"user"=>{"user"=>"carla_almeida", "password_confirmation"=>"very_weak_password", "password"=>nil}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=very_weak_password&user%5Buser%5D=carla_almeida]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:00:10) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 2) [0m
+Rendering template within layouts/application
+Rendering users/home
+Completed in 20ms (View: 14, DB: 2) | 200 OK [http://test.host/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 10:00:10) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 10:00:10) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:00:10) [GET]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) LIMIT 1[0m
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 103719225) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (6.2ms)
+Completed in 21ms (View: 17, DB: 2) | 200 OK [http://test.host/home]
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks".user_id = 103719225) [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 10:00:46) [GET]
+Redirected to http://test.host/
+Completed in 4ms (DB: 6) | 302 Found [http://test.host/session]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = 'f02ae316044c24b80599d63d7e592ccadea57c1c', "remember_token_expires_at" = '2009-11-11 12:00:46', "updated_at" = '2009-10-28 12:00:46' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:00:46) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 17ms (View: 17, DB: 1) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'invalid_auth_token') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '523432ebfd46551e1b09dd04b5691ed53643bc89', "remember_token_expires_at" = '2009-11-11 12:00:46', "updated_at" = '2009-10-28 12:00:46' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token_expires_at" = '2009-10-28 11:55:46', "updated_at" = '2009-10-28 12:00:46' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:00:46) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '523432ebfd46551e1b09dd04b5691ed53643bc89') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '543ac46aa2df33d73bdfcedbeb31a5cc97cb21e4', "remember_token_expires_at" = '2009-11-11 12:00:46', "updated_at" = '2009-10-28 12:00:46' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:00:46) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '543ac46aa2df33d73bdfcedbeb31a5cc97cb21e4') LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 12:00:47' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 10:00:47) [GET]
+Redirected to http://test.host/
+Completed in 1ms (DB: 2) | 302 Found [http://test.host/session]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"0"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 12:00:47' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 8ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=0]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"login"=>"mr_hank", "password"=>"howdy_ho"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'mr_hank') LIMIT 1[0m
+Failed login for 'mr_hank' from 0.0.0.0 at Wed Oct 28 12:00:47 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://test.host/session?login=mr_hank&password=howdy_ho]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"elephant"}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Failed login for 'aaron' from 0.0.0.0 at Wed Oct 28 12:00:47 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 19ms (View: 16, DB: 1) | 200 OK [http://test.host/session?login=aaron&password=elephant]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"1"}
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "remember_token" = 'd943f6724902c8e9a0687a0dca1b7dcac55b9b1e', "remember_token_expires_at" = '2009-11-11 12:00:47', "updated_at" = '2009-10-28 12:00:47' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 10ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=1]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"monkey"}
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Redirected to http://test.host/home
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/session?login=aaron&password=monkey]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"task"=>{"description"=>"Deploy 2 Post It on Dreamhost VPS."}}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 12:00:47', 'f', 'Deploy 2 Post It on Dreamhost VPS.', 1371930435, '2009-10-28 12:00:47')[0m
+Rendered tasks/_task (8.0ms)
+Completed in 26ms (View: 15, DB: 3) | 200 OK [http://test.host/tasks?task%5Bdescription%5D=Deploy+2+Post+It+on+Dreamhost+VPS.]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2009-10-28 10:00:47) [PUT]
+  Parameters: {"id"=>"981355102", "task"=>{"done"=>true}}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1913091173) [0m
+  [4;35;1mTask Update (0.5ms)[0m   [0mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 12:00:47' WHERE "id" = 981355102[0m
+Completed in 12ms (View: 7, DB: 4) | 200 OK [http://test.host/tasks/981355102?task%5Bdone%5D=true]
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"trovaoazul", "login"=>"carlos_almeida", "password"=>"trovaoazul"}}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'carlos_almeida') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('bf2f07dcd030eb2779125c27df961faf8c2c575b', '2009-10-28 12:00:47', '38c13a80837256c12790f9d3d48907b586dace1a', NULL, NULL, 'carlos_almeida', NULL, '2009-10-28 12:00:47')[0m
+Redirected to http://test.host/home
+Completed in 150ms (DB: 2) | 302 Found [http://test.host/users?user%5Blogin%5D=carlos_almeida&user%5Bpassword%5D=trovaoazul&user%5Bpassword_confirmation%5D=trovaoazul]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"user"=>{"user"=>"maria_jose", "password_confirmation"=>"salvador", "password"=>"salvador"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 192ms (View: 188, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=salvador&user%5Bpassword_confirmation%5D=salvador&user%5Buser%5D=maria_jose]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"user"=>{"user"=>nil, "password_confirmation"=>"elomarnsrocks", "password"=>"elomarnsrocks"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 21ms (View: 17, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=elomarnsrocks&user%5Bpassword_confirmation%5D=elomarnsrocks&user%5Buser%5D=]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"user"=>{"user"=>"anothersal", "password_confirmation"=>nil, "password"=>"mybirthday"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=mybirthday&user%5Bpassword_confirmation%5D=&user%5Buser%5D=anothersal]
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"user"=>{"user"=>"ecsavier", "password_confirmation"=>"29041985", "password"=>"290485"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 21, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=290485&user%5Bpassword_confirmation%5D=29041985&user%5Buser%5D=ecsavier]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:00:47) [POST]
+  Parameters: {"user"=>{"user"=>"carla_almeida", "password_confirmation"=>"very_weak_password", "password"=>nil}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=very_weak_password&user%5Buser%5D=carla_almeida]
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:00:47) [GET]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 2) [0m
+Rendering template within layouts/application
+Rendering users/home
+Completed in 20ms (View: 15, DB: 2) | 200 OK [http://test.host/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 10:00:47) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 10:00:47) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:00:47) [GET]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 103719225) LIMIT 1[0m
+  [4;35;1mTask Load (0.6ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 103719225) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (6.7ms)
+Completed in 22ms (View: 17, DB: 2) | 200 OK [http://test.host/home]
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks".user_id = 103719225) [0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 10:01:09) [GET]
+Redirected to http://test.host/
+Completed in 4ms (DB: 6) | 302 Found [http://test.host/session]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "remember_token" = 'd1dcf49b93cd1000e2b5a6790b62d9e636a05089', "remember_token_expires_at" = '2009-11-11 12:01:09', "updated_at" = '2009-10-28 12:01:09' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:01:10) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 18ms (View: 17, DB: 1) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'invalid_auth_token') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = 'fb4560fc13d8a7451fd81ab937aa28340dbc7438', "remember_token_expires_at" = '2009-11-11 12:01:10', "updated_at" = '2009-10-28 12:01:10' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE "users" SET "remember_token_expires_at" = '2009-10-28 11:56:10', "updated_at" = '2009-10-28 12:01:10' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:01:10) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'fb4560fc13d8a7451fd81ab937aa28340dbc7438') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.7ms)[0m   [0mUPDATE "users" SET "remember_token" = '87c3ff881ca431d71efb5581c74e4845530f27e9', "remember_token_expires_at" = '2009-11-11 12:01:10', "updated_at" = '2009-10-28 12:01:10' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:01:10) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '87c3ff881ca431d71efb5581c74e4845530f27e9') LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 12:01:10' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 10:01:10) [GET]
+Redirected to http://test.host/
+Completed in 1ms (DB: 2) | 302 Found [http://test.host/session]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"0"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 12:01:10' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 7ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=0]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"login"=>"mr_hank", "password"=>"howdy_ho"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'mr_hank') LIMIT 1[0m
+Failed login for 'mr_hank' from 0.0.0.0 at Wed Oct 28 12:01:10 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://test.host/session?login=mr_hank&password=howdy_ho]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"elephant"}
+  [4;36;1mUser Load (2.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Failed login for 'aaron' from 0.0.0.0 at Wed Oct 28 12:01:10 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 17ms (View: 11, DB: 3) | 200 OK [http://test.host/session?login=aaron&password=elephant]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"1"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '579dae8568620251b3ab8ee8252584bb1fa47112', "remember_token_expires_at" = '2009-11-11 12:01:10', "updated_at" = '2009-10-28 12:01:10' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 9ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=1]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"monkey"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Redirected to http://test.host/home
+Completed in 9ms (DB: 1) | 302 Found [http://test.host/session?login=aaron&password=monkey]
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"task"=>{"description"=>"Deploy 2 Post It on Dreamhost VPS."}}
+  [4;36;1mUser Load (1.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 12:01:10', 'f', 'Deploy 2 Post It on Dreamhost VPS.', 1371930435, '2009-10-28 12:01:10')[0m
+Rendered tasks/_task (7.9ms)
+Completed in 26ms (View: 15, DB: 4) | 200 OK [http://test.host/tasks?task%5Bdescription%5D=Deploy+2+Post+It+on+Dreamhost+VPS.]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mTask Load (0.7ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2009-10-28 10:01:10) [PUT]
+  Parameters: {"id"=>"981355102", "task"=>{"done"=>true}}
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1913091173) [0m
+  [4;35;1mTask Update (0.6ms)[0m   [0mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 12:01:10' WHERE "id" = 981355102[0m
+Completed in 11ms (View: 6, DB: 5) | 200 OK [http://test.host/tasks/981355102?task%5Bdone%5D=true]
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"task"=>{"description"=>"Create another website that make me rich, since this one won't give me any money. How about a new video sharing website ? NOT!"}}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+Completed in 7ms (View: 4, DB: 3) | 200 OK [http://test.host/tasks?task%5Bdescription%5D=Create+another+website+that+make+me+rich%2C+since+this+one+won%27t+give+me+any+money.+How+about+a+new+video+sharing+website+%3F+NOT%21]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"task"=>{"description"=>nil}}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+Completed in 7ms (View: 3, DB: 3) | 200 OK [http://test.host/tasks?task%5Bdescription%5D=]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"trovaoazul", "login"=>"carlos_almeida", "password"=>"trovaoazul"}}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'carlos_almeida') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('d52aeda846dd7631829573ae819e09cbba4c95c8', '2009-10-28 12:01:10', '72815ac730d8cf93026f740b25abc7791f80b33b', NULL, NULL, 'carlos_almeida', NULL, '2009-10-28 12:01:10')[0m
+Redirected to http://test.host/home
+Completed in 149ms (DB: 2) | 302 Found [http://test.host/users?user%5Blogin%5D=carlos_almeida&user%5Bpassword%5D=trovaoazul&user%5Bpassword_confirmation%5D=trovaoazul]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"user"=>{"user"=>"maria_jose", "password_confirmation"=>"salvador", "password"=>"salvador"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 3) | 200 OK [http://test.host/users?user%5Bpassword%5D=salvador&user%5Bpassword_confirmation%5D=salvador&user%5Buser%5D=maria_jose]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"user"=>{"user"=>nil, "password_confirmation"=>"elomarnsrocks", "password"=>"elomarnsrocks"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 21ms (View: 16, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=elomarnsrocks&user%5Bpassword_confirmation%5D=elomarnsrocks&user%5Buser%5D=]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"user"=>{"user"=>"anothersal", "password_confirmation"=>nil, "password"=>"mybirthday"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 21, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=mybirthday&user%5Bpassword_confirmation%5D=&user%5Buser%5D=anothersal]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"user"=>{"user"=>"ecsavier", "password_confirmation"=>"29041985", "password"=>"290485"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=290485&user%5Bpassword_confirmation%5D=29041985&user%5Buser%5D=ecsavier]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:01:10) [POST]
+  Parameters: {"user"=>{"user"=>"carla_almeida", "password_confirmation"=>"very_weak_password", "password"=>nil}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 21, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=very_weak_password&user%5Buser%5D=carla_almeida]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:01:10) [GET]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 2) [0m
+Rendering template within layouts/application
+Rendering users/home
+Completed in 20ms (View: 15, DB: 2) | 200 OK [http://test.host/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 10:01:10) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 10:01:10) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:01:10) [GET]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 103719225) LIMIT 1[0m
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 103719225) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (6.1ms)
+Completed in 21ms (View: 16, DB: 2) | 200 OK [http://test.host/home]
+  [4;36;1mTask Load (0.7ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks".user_id = 103719225) [0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+Redirected to http://test.host/
+Completed in 4ms (DB: 6) | 302 Found [http://test.host/session]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '84fecf720acb8b766eee494282eeb9292e677dbb', "remember_token_expires_at" = '2009-11-11 12:02:07', "updated_at" = '2009-10-28 12:02:07' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 17ms (View: 17, DB: 1) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'invalid_auth_token') LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '3c73965e32f69dea90f2823fca50f34af68bb42d', "remember_token_expires_at" = '2009-11-11 12:02:07', "updated_at" = '2009-10-28 12:02:07' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE "users" SET "remember_token_expires_at" = '2009-10-28 11:57:07', "updated_at" = '2009-10-28 12:02:07' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = '3c73965e32f69dea90f2823fca50f34af68bb42d') LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE "users" SET "remember_token" = '62003eb7265340f8354107924f1ebeee26c518d4', "remember_token_expires_at" = '2009-11-11 12:02:07', "updated_at" = '2009-10-28 12:02:07' WHERE "id" = 1[0m
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/session/new]
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '62003eb7265340f8354107924f1ebeee26c518d4') LIMIT 1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 12:02:07' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+Redirected to http://test.host/
+Completed in 1ms (DB: 2) | 302 Found [http://test.host/session]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"0"}
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2009-10-28 12:02:07' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 8ms (DB: 2) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=0]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"login"=>"mr_hank", "password"=>"howdy_ho"}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'mr_hank') LIMIT 1[0m
+Failed login for 'mr_hank' from 0.0.0.0 at Wed Oct 28 12:02:07 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://test.host/session?login=mr_hank&password=howdy_ho]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"elephant"}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Failed login for 'aaron' from 0.0.0.0 at Wed Oct 28 12:02:07 UTC 2009.
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 23ms (View: 19, DB: 1) | 200 OK [http://test.host/session?login=aaron&password=elephant]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"login"=>"quentin", "password"=>"monkey", "remember_me"=>"1"}
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Update (0.6ms)[0m   [0;1mUPDATE "users" SET "remember_token" = '824ff6e5797d381be4bd8b82a1fa18b01041652c', "remember_token_expires_at" = '2009-11-11 12:02:07', "updated_at" = '2009-10-28 12:02:07' WHERE "id" = 1[0m
+Redirected to http://test.host/home
+Completed in 10ms (DB: 1) | 302 Found [http://test.host/session?login=quentin&password=monkey&remember_me=1]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"login"=>"aaron", "password"=>"monkey"}
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'aaron') LIMIT 1[0m
+Redirected to http://test.host/home
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/session?login=aaron&password=monkey]
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"task"=>{"description"=>"Deploy 2 Post It on Dreamhost VPS."}}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("updated_at", "done", "description", "user_id", "created_at") VALUES('2009-10-28 12:02:07', 'f', 'Deploy 2 Post It on Dreamhost VPS.', 1371930435, '2009-10-28 12:02:07')[0m
+Rendered tasks/_task (8.3ms)
+Completed in 26ms (View: 16, DB: 4) | 200 OK [http://test.host/tasks?task%5Bdescription%5D=Deploy+2+Post+It+on+Dreamhost+VPS.]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mTask Load (0.7ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+
+
+Processing TasksController#update (for 0.0.0.0 at 2009-10-28 10:02:07) [PUT]
+  Parameters: {"id"=>"981355102", "task"=>{"done"=>true}}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1913091173) [0m
+  [4;35;1mTask Update (0.5ms)[0m   [0mUPDATE "tasks" SET "done" = 't', "updated_at" = '2009-10-28 12:02:07' WHERE "id" = 981355102[0m
+Completed in 10ms (View: 6, DB: 4) | 200 OK [http://test.host/tasks/981355102?task%5Bdone%5D=true]
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."id" = 981355102) [0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"task"=>{"description"=>"Create another website that make me rich, since this one won't give me any money. How about a new video sharing website ? NOT!"}}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+Completed in 7ms (View: 3, DB: 3) | 200 OK [http://test.host/tasks?task%5Bdescription%5D=Create+another+website+that+make+me+rich%2C+since+this+one+won%27t+give+me+any+money.+How+about+a+new+video+sharing+website+%3F+NOT%21]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tasks" [0m
+
+
+Processing TasksController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"task"=>{"description"=>nil}}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1371930435) [0m
+Completed in 8ms (View: 4, DB: 3) | 200 OK [http://test.host/tasks?task%5Bdescription%5D=]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tasks" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"trovaoazul", "login"=>"carlos_almeida", "password"=>"trovaoazul"}}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."login") = 'carlos_almeida') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('44b30561473988cba8c3189d9c5a2e7c5aa0a031', '2009-10-28 12:02:07', '4c3e0c2b2f2a8813745b0213c42e5e463b72fccc', NULL, NULL, 'carlos_almeida', NULL, '2009-10-28 12:02:07')[0m
+Redirected to http://test.host/home
+Completed in 149ms (DB: 2) | 302 Found [http://test.host/users?user%5Blogin%5D=carlos_almeida&user%5Bpassword%5D=trovaoazul&user%5Bpassword_confirmation%5D=trovaoazul]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"user"=>{"user"=>"maria_jose", "password_confirmation"=>"salvador", "password"=>"salvador"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 21, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=salvador&user%5Bpassword_confirmation%5D=salvador&user%5Buser%5D=maria_jose]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"user"=>{"user"=>nil, "password_confirmation"=>"elomarnsrocks", "password"=>"elomarnsrocks"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 21ms (View: 17, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=elomarnsrocks&user%5Bpassword_confirmation%5D=elomarnsrocks&user%5Buser%5D=]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"user"=>{"user"=>"anothersal", "password_confirmation"=>nil, "password"=>"mybirthday"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 21, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=mybirthday&user%5Bpassword_confirmation%5D=&user%5Buser%5D=anothersal]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"user"=>{"user"=>"ecsavier", "password_confirmation"=>"29041985", "password"=>"290485"}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 21, DB: 1) | 200 OK [http://test.host/users?user%5Bpassword%5D=290485&user%5Bpassword_confirmation%5D=29041985&user%5Buser%5D=ecsavier]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-10-28 10:02:07) [POST]
+  Parameters: {"user"=>{"user"=>"carla_almeida", "password_confirmation"=>"very_weak_password", "password"=>nil}}
+WARNING: Can't mass-assign these protected attributes: user
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 28ms (View: 24, DB: 2) | 200 OK [http://test.host/users?user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=very_weak_password&user%5Buser%5D=carla_almeida]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+Redirected to http://test.host/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/home]
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 2) [0m
+Rendering template within layouts/application
+Rendering users/home
+Completed in 20ms (View: 15, DB: 2) | 200 OK [http://test.host/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 103719225) [0m
+
+
+Processing UsersController#home (for 0.0.0.0 at 2009-10-28 10:02:07) [GET]
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 103719225) LIMIT 1[0m
+  [4;35;1mTask Load (0.5ms)[0m   [0mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 103719225) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (6.6ms)
+Completed in 22ms (View: 17, DB: 2) | 200 OK [http://test.host/home]
+  [4;36;1mTask Load (0.5ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks".user_id = 103719225) [0m

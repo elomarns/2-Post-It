@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(:version => 20091024022959) do
   create_table "tasks", :force => true do |t|
     t.text     "description"
     t.boolean  "done",        :default => false
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

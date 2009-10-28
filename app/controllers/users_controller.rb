@@ -1,6 +1,8 @@
 class UsersController < ApplicationController
-  include AuthenticatedSystem
+  before_filter :login_required, :only => :home
 
+  # GET /users/new
+  # GET /sign_up
   def new
     @user = User.new
 
@@ -9,6 +11,7 @@ class UsersController < ApplicationController
     end
   end
 
+  # POST /users
   def create
     logout_keeping_session!
 
@@ -20,10 +23,21 @@ class UsersController < ApplicationController
 
         flash[:notice] = "Welcome, #{@user.login}."
 
-        format.html { redirect_back_or_default tasks_path }
+        format.html { redirect_back_or_default home_path }
       else
         format.html { render :action => "new" }
       end
     end
   end
+
+  # GET /home
+  def home
+    @tasks = current_user.tasks.find_all_by_done(false)
+    @task = Task.new(:description => "New Task")
+
+    respond_to do |format|
+      format.html
+    end
+  end
+  
 end

@@ -1,17 +1,16 @@
 /*
   HTML Elements
 */
-body
+body, div, textarea
 {
-  font: 20px/1em Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-div
+body
 {
-  margin: 0;
-  padding: 0;
+  color: #4B4D49;
+  font: 24px/1em Arial, sans-serif;
 }
 
 h1
@@ -19,6 +18,7 @@ h1
   color: #78F;
   font-size: 1.5em;
   font-weight: normal;
+  margin: 20px 0;
 }
 
 p
@@ -41,22 +41,34 @@ a:hover
   text-decoration: underline;
 }
 
+form
+{
+  background: #FF9 repeat;
+  padding: 1px 21px 5px 21px;
+}
+
+label
+{
+  display: block;
+  margin-bottom: 3px;
+}
+
 input
 {
   border: 1px solid #00F;
-  font-size: 20px;
-}
-
-textarea
-{
-  margin: 0;
-  outline: 0;
-  padding: 0;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  padding: 5px;
 }
 
 input[type=text], input[type=password]
 {
   width: 250px;
+}
+
+textarea
+{
+  outline: 0;
 }
 
 /*
@@ -73,7 +85,7 @@ p#header, p#footer
 div#content
 {
   margin: 0 auto;
-  width: 50%;
+  width: 55%;
 }
 
 p#notice_message
@@ -84,137 +96,9 @@ p#notice_message
 
 p#error_message
 {
-  border: 1px solid #F43;
+  border: 1px solid #F00;
   color: #F00;
   padding: 10px;
-}
-
-/*
-  Sign Up Form
-*/
-div#content form
-{
-  background: #FF9 repeat;
-  padding: 1px 21px 5px 21px;
-}
-
-div#content form label
-{
-  display: block;
-  margin-bottom: 2px;
-}
-
-div#content form div.fieldWithErrors, div#content form div.formError
-{
-  display: inline;
-}
-
-div.formError
-{
-  color: #FF0000;
-  padding-left: 5px;
-}
-
-/*
-  User's Home
-*/
-div#content.user_home
-{
-  margin: 0 auto;
-  width: 95%;
-}
-
-div#content.user_home ul
-{
-  margin: 0;
-}
-
-div#content ul li div.task
-{
-  background: #FF9 repeat;position: relative;
-  float: left;
-  font-size: 18px;
-  height: 130px;
-  margin: 0 10px 20px 10px;
-  overflow: hidden;
-  padding: 10px;
-  width: 180px;
-}
-
-div#content ul li div.task p, div#content ul li div#new_task.task textarea
-{
-  color: #545657;
-  height: 100%;
-  line-height: 1.3em;
-  margin: 0;
-  overflow: hidden;
-  text-align: justify;
-}
-
-div#content ul li div.task input
-{
-  display: none;
-}
-
-div#content ul li div.task:hover input.mark_as_done
-{
-  display: inline;
-}
-
-div.task:hover
-{
-  cursor: move;
-}
-
-div.task#new_task_div:hover
-{
-  cursor: auto;
-}
-
-div#content ul li div.task input.mark_as_done
-{
-  bottom: 5px;
-  position: absolute;
-  right: 5px;
-}
-
-/*
-  New Task
-*/
-div.task form#new_task textarea#task_description
-{
-  border: 0;
-  background: #FF9;
-  color: #78F;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  height: 130px;
-  overflow:hidden;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 180px;
-}
-
-/*
-  Tasks
-*/
-div#content ul#tasks li div.task form div input[type=hidden]
-{
-  display: none;
-}
-
-/*
-  Sign in
-*/
-input#remember_me
-{
-  margin: 0;
-}
-
-div#content form p label[for=remember_me]
-{
-  display: inline;
 }
 
 /*
@@ -231,6 +115,25 @@ p#footer
 }
 
 /*
+  ActionView Errors
+*/
+div.fieldWithErrors, div.formError
+{
+  display: inline;
+}
+
+div.formError
+{
+  color: #F00;
+  padding-left: 2px;
+}
+
+div.formError, .LV_invalid
+{
+  font-size: 20px;
+}
+
+/*
   Live Validation
 */
 .LV_valid
@@ -240,7 +143,7 @@ p#footer
 
 .LV_invalid
 {
-  color: #FF0000;
+  color: #F00;
   padding-left: 10px;
 }
 
@@ -251,18 +154,136 @@ textarea.LV_valid_field:hover, textarea.LV_valid_field:active
 }
 
 .LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active,
-textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWithErrors  input
+textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWithErrors input
 {
-  border: 1px solid #FF0000;
+  border: 1px solid #F00;
 }
 
-div#content form#new_task p textarea.LV_invalid_field
+form#new_task p textarea.LV_invalid_field
 {
   color: #F00;
   text-decoration: blink;
 }
 
-div#task
+/*
+  Website Home
+*/
+div#content.website_home
 {
+  color: #4B4D49;
+  line-height: 1.5em;
+  width: 75%;
+}
+
+div#content.website_home form#login_form
+{
+  background-color: #FFF;
+  text-align: center;
+}
+
+div#content.website_home form#login_form input, div#content.website_home form p
+{
+  display: inline;
+}
+
+#sign_in_sign_up_link
+{
+  margin: 60px 0;
+}
+
+#sign_up_link, #sign_in_link
+{
+  background: #FF9 repeat;
+  padding: 40px;
+}
+
+/*
+  Sign in
+*/
+input#remember_me
+{
+  margin: 0;
+}
+
+label[for=remember_me]
+{
+  display: inline;
+}
+
+/*
+  User's Home
+*/
+div#content.user_home
+{
+  width: 95%;
+}
+
+div#content.user_home ul
+{
+  margin: 0;
+}
+
+div.task
+{
+  background: #FF9 repeat;
+  float: left;
+  font-size: 18px;
+  height: 130px;
+  margin: 0 10px 20px 10px;
   overflow: hidden;
+  padding: 10px;
+  position: relative;
+  width: 180px;
+}
+
+div.task:hover
+{
+  cursor: move;
+}
+
+div.task#new_task_post_it:hover
+{
+  cursor: auto;
+}
+
+textarea#task_description
+{
+  border: 0;
+  background: #FF9 repeat;
+  color: #78F;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  height: 130px;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 180px;
+}
+
+div.task p
+{
+  color: #4B4D49;
+  height: 100%;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  text-align: justify;
+}
+
+div.task input
+{
+  display: none;
+}
+
+div.task:hover input.mark_as_done
+{
+  display: inline;
+}
+
+div.task input.mark_as_done
+{
+  bottom: 5px;
+  position: absolute;
+  right: 5px;
 }

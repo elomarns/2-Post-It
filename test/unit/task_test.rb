@@ -2,20 +2,19 @@ require 'test_helper'
 
 class TaskTest < ActiveSupport::TestCase
 
-  test "should require task description" do
-    assert_no_difference "Task.count" do
+  test "should require description" do
+    assert_no_difference 'Task.count' do
       task_without_description = Task.create(:description => nil, :user => users(:maria_jose))
 
       assert !task_without_description.valid?
       assert task_without_description.new_record?
       assert_equal 1, task_without_description.errors.size
-      assert task_without_description.errors.on(:description)
       assert_equal "can't be blank", task_without_description.errors.on(:description)
     end
   end
 
-  test "should require task description with less than 90 characters" do
-    assert_no_difference "Task.count" do
+  test "should require description with less than 90 characters" do
+    assert_no_difference 'Task.count 'do
       task_with_long_description = 
         Task.create(:description => "Complete this app, make money with it, buy a mansion and a ferrari, and make more money to buy more ferraris.",
         :user => users(:elomar))
@@ -23,26 +22,24 @@ class TaskTest < ActiveSupport::TestCase
       assert !task_with_long_description.valid?
       assert task_with_long_description.new_record?
       assert_equal 1, task_with_long_description.errors.size
-      assert task_with_long_description.errors.on(:description)
       assert_equal "is too long (maximum is 90 characters)", task_with_long_description.errors.on(:description)
     end
   end
 
-  test "should require task user" do
-    assert_no_difference "Task.count" do
+  test "should require user" do
+    assert_no_difference 'Task.count' do
       task_without_user = Task.create(:description => "Make some exercise.", :user => nil)
 
       assert !task_without_user.valid?
       assert task_without_user.new_record?
       assert_equal 1, task_without_user.errors.size
-      assert task_without_user.errors.on(:user)
       assert_equal "can't be blank", task_without_user.errors.on(:user)
     end
   end
 
-  test "should create a valid task" do
-    assert_difference "Task.count" do
-      valid_task = Task.create(:description => "Register the domain to use with 2 Post It.",
+  test "should create task" do
+    assert_difference 'Task.count' do
+      valid_task = Task.create(:description => "Register the domain 2postit.com.",
         :user => users(:fake_elomarns))
 
       assert valid_task.valid?

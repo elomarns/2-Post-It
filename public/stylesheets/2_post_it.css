@@ -67,6 +67,11 @@ input[type=text], input[type=password]
   width: 250px;
 }
 
+input[type=hidden]
+{
+  display: none;
+}
+
 textarea
 {
   outline: 0;
@@ -181,9 +186,15 @@ div#content.website_home form
   text-align: center;
 }
 
-div#content.website_home form input, div#content.website_home form p
+div#content.website_home form input[type=text], div#content.website_home form input[type=password],
+div#content.website_home form p
 {
   display: inline;
+}
+
+div#content.website_home .LV_validation_message
+{
+  display: none;
 }
 
 p#sign_up_and_sign_in_links

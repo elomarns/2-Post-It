@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <meta name="description" content="Sign up page of 2 Post It." />
-    <meta name="keywords" content="task, list, post it, to do, done, sign up" />
+    <meta name="keywords" content="task, list, post it, to do, done, sign in, sign up" />
     <meta name="author" content="Elomar Nascimento dos Santos" />
 
     <link rel="stylesheet" type="text/css" href="stylesheets/2_post_it.css" />
@@ -33,15 +33,13 @@
         </p>
 
         <p>
-          <input type="submit" value="Log In" />
+          <input type="submit" value="Sign In" />
         </p>
 
-        <script type="text/javascript" charset="utf-8">
+        <script type="text/javascript">
           $('login').defaultValueActsAsHint();
           $('password').defaultValueActsAsHint();
-        </script>
-
-        <script type="text/javascript" charset="utf-8">
+     
           var login = new LiveValidation('login');
           var password = new LiveValidation('password');
 
@@ -63,9 +61,9 @@
         finish. So, it's time to think another excuse to your wife.
       </p>
 
-      <p id="sign_in_sign_up_link">
+      <p id="sign_up_and_sign_in_links">
         <a href="sign_up.html" title="Sign Up at 2 Post It" id="sign_up_link">Sign up now</a> or
-        <a href="" title="" id="sign_in_link">sign in</a>
+        <a href="login.html" title="Sign In at 2 Post It" id="sign_in_link">sign in</a>
       </p>
     </div>
 

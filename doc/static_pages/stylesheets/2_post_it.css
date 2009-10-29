@@ -24,6 +24,7 @@ h1
 p
 {
   margin: 20px 0;
+  text-align: justify;
 }
 
 ul
@@ -170,23 +171,22 @@ form#new_task p textarea.LV_invalid_field
 */
 div#content.website_home
 {
-  color: #4B4D49;
   line-height: 1.5em;
   width: 75%;
 }
 
-div#content.website_home form#login_form
+div#content.website_home form
 {
   background-color: #FFF;
   text-align: center;
 }
 
-div#content.website_home form#login_form input, div#content.website_home form p
+div#content.website_home form input, div#content.website_home form p
 {
   display: inline;
 }
 
-#sign_in_sign_up_link
+p#sign_up_and_sign_in_links
 {
   margin: 60px 0;
 }

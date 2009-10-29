@@ -80,9 +80,26 @@ textarea
 /*
   Header
 */
-p#header, p#footer
+div#header, p#footer
 {
   text-align: center;
+}
+
+div#header
+{
+  margin: 20px;
+  position: relative;
+}
+
+div#header p
+{
+  display: inline;
+  font-size: 14px;
+  margin: 0;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+
 }
 
 /*

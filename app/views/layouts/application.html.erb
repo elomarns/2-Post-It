@@ -17,9 +17,11 @@
     <title>2 Post It - Sign Up</title>
   </head>
   <body>
-    <p id="header">
+    <div id="header">
       <%= image_tag "logo.png", :alt => "2 Post It", :width => "283", :height => "69" %>
-    </p>
+
+      <%= render :partial => "users/user_bar" %>
+    </div>
 
     <%= yield %>
 

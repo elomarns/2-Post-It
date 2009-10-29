@@ -18818,3 +18818,29 @@ Rendered tasks/_task (7.8ms)
 Rendered tasks/_task (7.8ms)
 Rendered users/_user_bar (4.1ms)
 Completed in 250ms (View: 59, DB: 2) | 200 OK [http://localhost/home]
+
+
+Processing UsersController#home (for 127.0.0.1 at 2009-10-29 10:15:18) [GET]
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mTask Load (1.0ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 1) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (7.2ms)
+Rendered tasks/_task (7.5ms)
+Rendered tasks/_task (7.6ms)
+Rendered tasks/_task (8.1ms)
+Rendered users/_user_bar (4.4ms)
+Completed in 99ms (View: 60, DB: 2) | 200 OK [http://localhost/home]
+
+
+Processing UsersController#home (for 127.0.0.1 at 2009-10-29 10:15:28) [GET]
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mTask Load (1.1ms)[0m   [0;1mSELECT * FROM "tasks" WHERE ("tasks"."done" = 'f') AND ("tasks".user_id = 1) [0m
+Rendering template within layouts/application
+Rendering users/home
+Rendered tasks/_task (7.4ms)
+Rendered tasks/_task (8.1ms)
+Rendered tasks/_task (7.2ms)
+Rendered tasks/_task (6.8ms)
+Rendered users/_user_bar (4.5ms)
+Completed in 103ms (View: 60, DB: 2) | 200 OK [http://localhost/home]

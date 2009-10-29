@@ -1,6 +1,6 @@
 <% if logged_in? -%>
   <p>
-    Logged in as <%= link_to_current_user :content_method => :login %>
+    Logged in as <%= h current_user.login %>
     (<%= link_to "logout", logout_path, { :title => "Logout" } %>)
   </p>  
 <% end -%>

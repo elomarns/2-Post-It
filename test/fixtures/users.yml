@@ -1,92 +1,93 @@
-daniel_marques:
+nerdaniel:
   login: nerdaniel
-  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
-  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
-  created_at:                <%= 5.days.ago.to_s :db  %>
+  salt:                      119d2db05fa84602cb340ca8c5b4a495a413148b
+  crypted_password:          39f1a428b057dc89420eaab21e45177959aa4abc # alice
+  created_at:                <%= 12.days.ago.to_s :db  %>
   remember_token_expires_at: <%= 1.days.from_now.to_s %>
   remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
 
 douglas_afonso:
   login: douglas_afonso
-  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
-  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
-  created_at:                <%= 5.days.ago.to_s :db  %>
+  salt:                      e30f41a3e6933dd76619889f2054e8948845ede6
+  crypted_password:          190ba6d74b423c334ef5cafb221869b66bd3d718 # idontexist
+  created_at:                <%= 11.days.ago.to_s :db  %>
   remember_token_expires_at: <%= 1.days.from_now.to_s %>
   remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
 
 maria_jose:
   login: maria_jose
-  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
-  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
-  created_at:                <%= 5.days.ago.to_s :db  %>
+  salt:                      cf95f079665716519aa36b4fb6ec79d86889c8b0
+  crypted_password:          7c826b61c5b6ac15d20449d8d19d3467d67c3ce9 # salvador
+  created_at:                <%= 10.days.ago.to_s :db  %>
   remember_token_expires_at: <%= 1.days.from_now.to_s %>
   remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
 
-marcos_gurgel:
+mgurgel:
   login: mgurgel
-  salt:                      cd3f6e6dd743a49bd9edd0e4d46834e1403e94c1
-  crypted_password:          e48224c34e6dbe92e5467f73986681978e6799d0 # 'nirvana'
-  created_at:                <%= 5.days.ago.to_s :db  %>
+  salt:                      d32b9cba027beaeb0b4d82b155d87b05e277d1d1
+  crypted_password:          b5f9d9bf782e956d5b83af5e68251053df410b68 # nirvana
+  created_at:                <%= 9.days.ago.to_s :db  %>
   remember_token_expires_at: <%= 1.days.from_now.to_s %>
   remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
+
+aaron:
+  login:                     aaron
+  salt:                      da4b9237bacccdf19c0760cab7aec4a8359010b0 # SHA1('1')
+  crypted_password:          aaa9bc3a12c78f8ac30b61d369fe25e9e21646e9 # monkey
+  created_at:                <%= 8.days.ago.to_s :db %>
+  remember_token_expires_at:
+  remember_token:
 
 technoweenie:
   login: technoweenie
-  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
-  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
-  created_at:                <%= 5.days.ago.to_s :db  %>
+  salt:                      ed77fcb4cdd084fc90416cbdfbc83bc504a1188a
+  crypted_password:          73585114dd15b73f8e0bfa0dc89687ed709dd83b # rickolson
+  created_at:                <%= 7.days.ago.to_s :db  %>
   remember_token_expires_at: <%= 1.days.from_now.to_s %>
   remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
 
 elomar:
   login: elomar
+  salt:                      d64dc9e25ea9e69e672aedcf796613bd56a5518d
+  crypted_password:          f36d1429f981cc220b04d2f6c765f35159eb685b # natal
+  created_at:                <%= 6.days.ago.to_s :db  %>
+  remember_token_expires_at: 
+  remember_token:            
+
+quentin:
+  login:                     quentin
   salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
-  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
+  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # monkey
   created_at:                <%= 5.days.ago.to_s :db  %>
   remember_token_expires_at: <%= 1.days.from_now.to_s %>
   remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
 
 fake_elomarns:
   login: fake_elomarns
-  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
-  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
-  created_at:                <%= 5.days.ago.to_s :db  %>
-  remember_token_expires_at: <%= 1.days.from_now.to_s %>
-  remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
-
-leonardo_bighi:
-  login: leonardo_bighi
-  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
-  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
-  created_at:                <%= 5.days.ago.to_s :db  %>
-  remember_token_expires_at: <%= 1.days.from_now.to_s %>
-  remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
-
-quentin:
-  id:                        1
-  login:                     quentin
-  email:                     quentin@example.com
-  salt:                      356a192b7913b04c54574d18c28d46e6395428ab # SHA1('0')
-  crypted_password:          014dd999356673616199cb96cd740b9a7717f96c # 'monkey'
-  created_at:                <%= 5.days.ago.to_s :db  %>
-  remember_token_expires_at: <%= 1.days.from_now.to_s %>
-  remember_token:            77de68daecd823babbb58edb1c8e14d7106e83bb
-      
-aaron:
-  id:                        2
-  login:                     aaron
-  email:                     aaron@example.com
-  salt:                      da4b9237bacccdf19c0760cab7aec4a8359010b0 # SHA1('1')
-  crypted_password:          aaa9bc3a12c78f8ac30b61d369fe25e9e21646e9 # 'monkey'
-  created_at:                <%= 1.days.ago.to_s :db %>
+  salt:                      5be7018f555a3f1c8a4ad3ab30f7a62cf508c920
+  crypted_password:          17cda8528ae619ebbf9a065a99758b497dabd7c9 # fakepassword
+  created_at:                <%= 4.days.ago.to_s :db  %>
   remember_token_expires_at: 
   remember_token:            
 
+leonardo_bighi:
+  login: leonardo_bighi
+  salt:                      f2ceef858ae2e55643389e818eb005e4881147d6
+  crypted_password:          d8efc012209d781eb00904f431fac6639a340b91 # pspawn
+  created_at:                <%= 3.days.ago.to_s :db  %>
+  remember_token_expires_at: 
+  remember_token:
+
+edgard:
+  login: edgard
+  salt:                      d6cc1200fe8c546eb14ed848ab9e4e8bbb7fdf71
+  crypted_password:          d2a28b5fba091c68e9b1a91f88fde97d48616afd # hehehe
+  created_at:                <%= 2.days.ago.to_s :db  %>
+  remember_token_expires_at:
+  remember_token:
 
 old_password_holder:
-  id:                        3
   login:                     old_password_holder
-  email:                     salty_dog@example.com
   salt:                      7e3041ebc2fc05a40c60028e2c4901a81035d3cd
   crypted_password:          00742970dc9e6319f8019fd54864d3ea740f04b1 # test
   created_at:                <%= 1.days.ago.to_s :db %>

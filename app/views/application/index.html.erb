@@ -1,3 +1,5 @@
+<% content_for :page_title do -%>Never forget your tasks again<% end -%>
+
 <div id="content" class="website_home">
   <% unless logged_in? -%>
     <% form_tag session_path, :id => "login_form" do %>

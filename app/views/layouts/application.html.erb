@@ -14,13 +14,13 @@
     <%= javascript_include_tag :defaults, "livevalidation_prototype.compressed.js",
       "defaultvalueactsashint" %>
 
-    <title>2 Post It - Sign Up</title>
+    <title><%= yield :page_title %> - 2 Post It</title>
   </head>
   <body>
     <div id="header">
       <%= image_tag "logo.png", :alt => "2 Post It", :width => "283", :height => "69" %>
 
-      <%= render :partial => "users/user_bar" %>
+      <%= render :partial => "users/user_bar" -%>
     </div>
 
     <%= yield %>

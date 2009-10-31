@@ -97,6 +97,13 @@ class SessionsControllerTest < ActionController::TestCase
     assert !@controller.send(:logged_in?)
   end
 
+  test "should not logout if not logged in" do
+    get :destroy
+
+    assert_response :redirect
+    assert_redirected_to login_path
+  end
+
   test "should logout" do
     login_as :maria_jose
 

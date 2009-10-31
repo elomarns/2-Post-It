@@ -37,6 +37,12 @@ class TasksControllerTest < ActionController::TestCase
     assert !Task.find(tasks(:study_ajax).id).done
   end
 
+  test "should not mark task as done if the user is not logged in" do
+    put :update, :id => tasks(:buy_a_macbook).to_param, :task => { :done => true }
+
+    assert !Task.find(tasks(:buy_a_macbook).to_param).done
+  end
+
 
   test "should mark task as done" do
     login_as :mgurgel

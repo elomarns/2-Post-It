@@ -15,7 +15,7 @@ class TasksController < ApplicationController
   end
 
   # IMPROVE: Use RJS template.
-  # PUT /tasks/1.xml
+  # PUT /tasks/1
   def update
     @task = Task.find(params[:id])
 
@@ -23,5 +23,4 @@ class TasksController < ApplicationController
       page.visual_effect :fade, "task_#{@task.id}" if @task.user == current_user and @task.update_attributes(params[:task])
     end
   end
-
 end

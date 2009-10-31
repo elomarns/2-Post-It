@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   before_filter :login_required, :only => :home
 
   # GET /users/new
-  # GET /sign_up
+  # GET /signup
   def new
     @user = User.new
 

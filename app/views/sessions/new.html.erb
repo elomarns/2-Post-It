@@ -1,4 +1,10 @@
 <div id="content">
+  <% unless flash[:error].blank? %>
+    <p id="error_message">
+      <%= flash[:error] %>
+    </p>
+  <% end %>
+
   <h1>Sign In</h1>
 
   <% form_tag session_path do %>

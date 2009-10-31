@@ -1,4 +1,4 @@
-/*
+/* 
   HTML Elements
 */
 body, div, textarea
@@ -30,10 +30,12 @@ p
 ul
 {
   list-style-type: none;
+  margin: 0;
 }
 
 a
 {
+  outline: 0;
   text-decoration: none;
 }
 
@@ -75,66 +77,6 @@ input[type=hidden]
 textarea
 {
   outline: 0;
-}
-
-/*
-  Header
-*/
-div#header, p#footer
-{
-  text-align: center;
-}
-
-div#header
-{
-  margin: 20px;
-  position: relative;
-}
-
-div#header p
-{
-  display: inline;
-  font-size: 14px;
-  margin: 0;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-
-}
-
-/*
-  Content
-*/
-div#content
-{
-  margin: 0 auto;
-  width: 55%;
-}
-
-p#notice_message
-{
-  color: #21F500;
-  font-size: 1.3em;
-}
-
-p#error_message
-{
-  border: 1px solid #F00;
-  color: #F00;
-  padding: 10px;
-}
-
-/*
-  Footer
-*/
-p#footer
-{
-  background: #FF9 repeat;
-  clear: both;
-  font-size: 20px;
-  margin: 20px auto;
-  padding: 10px;
-  width: 500px;
 }
 
 /*
@@ -182,39 +124,91 @@ textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWith
   border: 1px solid #F00;
 }
 
-form#new_task p textarea.LV_invalid_field
+/*
+  Header
+*/
+#header, #footer
 {
+  text-align: center;
+}
+
+#header
+{
+  margin: 20px;
+  position: relative;
+}
+
+#header p
+{
+  display: inline;
+  font-size: 14px;
+  margin: 0;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+/*
+  Content
+*/
+#content
+{
+  margin: 0 auto;
+  width: 55%;
+}
+
+#notice_message
+{
+  color: #21F500;
+  font-size: 1.3em;
+}
+
+#error_message
+{
+  border: 1px solid #F00;
   color: #F00;
-  text-decoration: blink;
+  padding: 10px;
+}
+
+/*
+  Footer
+*/
+#footer
+{
+  background: #FF9 repeat;
+  clear: both;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 500px;
 }
 
 /*
   Website Home
 */
-div#content.website_home
+#content.website_home
 {
   line-height: 1.5em;
   width: 75%;
 }
 
-div#content.website_home form
+#content.website_home form
 {
   background-color: #FFF;
   text-align: center;
 }
 
-div#content.website_home form input[type=text], div#content.website_home form input[type=password],
-div#content.website_home form p
+#content.website_home form p
 {
   display: inline;
 }
 
-div#content.website_home .LV_validation_message
+#content.website_home .LV_validation_message
 {
   display: none;
 }
 
-p#sign_up_and_sign_in_links
+#sign_up_and_sign_in_links
 {
   margin: 60px 0;
 }
@@ -228,7 +222,7 @@ p#sign_up_and_sign_in_links
 /*
   Sign in
 */
-input#remember_me
+#remember_me
 {
   margin: 0;
 }
@@ -241,14 +235,9 @@ label[for=remember_me]
 /*
   User's Home
 */
-div#content.user_home
+#content.user_home
 {
   width: 95%;
-}
-
-div#content.user_home ul
-{
-  margin: 0;
 }
 
 div.task
@@ -282,6 +271,7 @@ textarea#task_description
   font-family: Arial, sans-serif;
   font-size: 18px;
   height: 130px;
+  line-height: 1.3em;
   overflow: hidden;
   position: absolute;
   top: 10px;
@@ -289,10 +279,15 @@ textarea#task_description
   width: 180px;
 }
 
+form#new_task textarea.LV_invalid_field
+{
+  color: #F00;
+  text-decoration: blink;
+}
+
 div.task p
 {
   color: #4B4D49;
-  height: 100%;
   line-height: 1.3em;
   margin: 0;
   overflow: hidden;
@@ -306,12 +301,8 @@ div.task input
 
 div.task:hover input.mark_as_done
 {
-  display: inline;
-}
-
-div.task input.mark_as_done
-{
   bottom: 5px;
+  display: inline;
   position: absolute;
   right: 5px;
 }

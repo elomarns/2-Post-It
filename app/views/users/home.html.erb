@@ -1,4 +1,10 @@
 <div id="content" class="user_home">
+  <% unless flash[:notice].blank? %>
+    <p id="notice_message">
+      <%= flash[:notice] %>
+    </p>
+  <% end %>
+
   <ul id="tasks">
     <li>
       <div class="task" id="new_task_post_it">
@@ -43,17 +49,17 @@
               if(!e.shiftKey)
               {
                 if(obj.form)
-                  if(document.getElementById("task_description").value.length <= 84 && document.getElementById("task_description").value != "")
+                  if(document.getElementById("task_description").value.length <= 90 && document.getElementById("task_description").value != "")
                 {
-  <%= remote_function(:url => tasks_path, :method => :post, :with => "Form.serialize(\"new_task\")") %>
-            document.getElementById("task_description").value = "New Task";
-            $('task_description').blur();
-          }
+                  <%= remote_function(:url => tasks_path, :method => :post, :with => "Form.serialize(\"new_task\")") %>
+                  document.getElementById("task_description").value = "New Task";
+                  $('task_description').blur();
+                }
 
-          stopEvent(e);
-        }
-      }
-    }
+                stopEvent(e);
+              }
+            }
+          }
         </script>
       </div>
     </li>
@@ -66,6 +72,8 @@
   <% unless flash[:notice].blank? %>
     <%= javascript_tag visual_effect(:fade, "notice_message", :duration => 5) %>
   <% end %>
+
+  <%= draggable_element "new_task_post_it" %>
 
   <% @tasks.each do |task| %>
     <%= draggable_element "task_#{task.id}" %>

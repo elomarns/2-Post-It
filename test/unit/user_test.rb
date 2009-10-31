@@ -1,7 +1,11 @@
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
-  
+
+  test "should have many tasks" do
+    assert_equal :has_many, User.reflect_on_association(:tasks).macro
+  end
+
   test "should require login" do
     assert_no_difference "User.count" do
       user_without_login = User.create(:login => nil, :password => "my_password",
@@ -78,7 +82,7 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "should create a valid user" do
+  test "should create user" do
     assert_difference "User.count" do
       valid_user = User.create(:login => "vivimlima", :password => "passoFUNDO",
         :password_confirmation => "passoFUNDO")
@@ -150,9 +154,5 @@ class UserTest < ActiveSupport::TestCase
     assert_not_nil users(:edgard).remember_token_expires_at
     
     assert users(:edgard).remember_token_expires_at.between?(before, after)
-  end
-
-  test "should have many tasks" do
-    assert_equal :has_many, User.reflect_on_association(:tasks).macro
   end
 end

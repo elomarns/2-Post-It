@@ -1,4 +1,3 @@
-# This controller handles the login/logout function of the site.  
 class SessionsController < ApplicationController
 
   def new
@@ -33,11 +32,10 @@ class SessionsController < ApplicationController
 
     flash[:notice] = "It's sad to me say it, but you have been logged out. :("
 
-    redirect_back_or_default '/'
+    redirect_back_or_default root_path
   end
 
-protected
-  # Track failed login attempts
+  protected
   def note_failed_signin
     flash[:error] = "Your login and/or password is wrong."
     logger.warn "Failed login for '#{params[:login]}' from #{request.remote_ip} at #{Time.now.utc}."

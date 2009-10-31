@@ -1,9 +1,14 @@
 learn_jquery:
   user: daniel_marques
-  description: Learn Jquery.
+  description: Learn jQuery.
   done: false
 
 study_ajax:
   user: douglas_afonso
   description: Study more about Ajax.
+  done: false
+
+stop_listening_radiohead:
+  user: mgurgel
+  description: Stop Listening Radiohead
   done: false

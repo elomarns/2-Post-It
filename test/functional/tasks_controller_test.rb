@@ -2,16 +2,16 @@ require 'test_helper'
 
 class TasksControllerTest < ActionController::TestCase
 
-  test "should not create task without description through new task form" do
-    login_as :fake_elomarns
+  test "should not create task without description" do
+    login_as :technoweenie
 
     assert_no_difference "Task.count" do
       post :create, :task => { :description => nil }
     end
   end
   
-  test "should not create task with a description bigger than 90 characters through new task form" do
-    login_as :fake_elomarns
+  test "should not create task with a description bigger than 90 characters" do
+    login_as :elomar
 
     assert_no_difference "Task.count" do
       post :create, :task => { 
@@ -19,22 +19,30 @@ class TasksControllerTest < ActionController::TestCase
     end
   end
 
-  test "should create a valid task through new task form" do
-    login_as :fake_elomarns
+  test "should create task" do
+    login_as :leonardo_bighi
 
-    assert_difference 'Task.count' do
-      post :create, :task => { :description => "Deploy 2 Post It on Dreamhost VPS." }
+    assert_difference "Task.count" do
+      post :create, :task => { :description => "Watch Twilight again." }
     end
 
-    assert_equal users(:fake_elomarns), assigns(:task).user
+    assert_equal users(:leonardo_bighi), assigns(:task).user
   end
 
-  test "should mark existent task as done" do
-    login_as :fake_elomarns
+  test "should not mark task as done if the user is not the owner" do
+    login_as :maria_jose
 
     put :update, :id => tasks(:study_ajax).to_param, :task => { :done => true }
-    
-    assert Task.find(tasks(:study_ajax).to_param).done
+
+    assert !Task.find(tasks(:study_ajax).id).done
   end
 
+
+  test "should mark task as done" do
+    login_as :mgurgel
+
+    put :update, :id => tasks(:stop_listening_radiohead).to_param, :task => { :done => true }
+    
+    assert Task.find(tasks(:stop_listening_radiohead).id).done
+  end
 end

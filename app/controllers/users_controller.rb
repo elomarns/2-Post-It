@@ -39,5 +39,4 @@ class UsersController < ApplicationController
       format.html
     end
   end
-  
 end

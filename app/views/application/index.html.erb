@@ -1,0 +1,60 @@
+<div id="content" class="website_home">
+  <% unless logged_in? -%>
+    <% form_tag session_path, :id => "login_form" do %>
+      <p>
+        <%= text_field_tag "login", "login" %>
+      </p>
+
+      <p>
+        <%= password_field_tag "password", "password"  %>
+      </p>
+
+      <p>
+        <%= hidden_field_tag "remember_me", "1" %>
+      </p>
+
+      <p>
+        <%= submit_tag "Sign In" %>
+      </p>
+
+      <script type="text/javascript">
+        $('login').defaultValueActsAsHint();
+        $('password').defaultValueActsAsHint();
+     
+        var login = new LiveValidation('login');
+        var password = new LiveValidation('password');
+
+        login.add(Validate.Presence)
+        password.add(Validate.Presence)
+      </script>
+    <% end -%>
+  <% end -%>
+
+  <% unless flash[:notice].blank? %>
+    <p id="notice_message">
+      <%= flash[:notice] %>
+    </p>
+  <% end %>
+
+  <h1>Never Forget your tasks again!</h1>
+
+  <p>
+    If you're like me, besides being a very nice guy, you always forget your
+    tasks (or just use this excuse to your wife). But don't fear anymore,
+    all your problems are not solved (life is hard), but at least this one is.
+  </p>
+
+  <p>
+    With 2 Post It you can add your tasks as post its, and mark them when you
+    finish. So, it's time to think another excuse to your wife.
+  </p>
+
+  <p id="sign_up_and_sign_in_links">
+    <a href="/sign_up" title="Sign Up at 2 Post It" id="sign_up_link">Sign up now</a> or
+    <a href="/login" title="Sign In at 2 Post It" id="sign_in_link">Sign in</a>
+  </p>
+</div>
+
+<% unless flash[:notice].blank? %>
+  <%= javascript_tag visual_effect(:fade, "notice_message", :duration => 5) %>
+<% end %>

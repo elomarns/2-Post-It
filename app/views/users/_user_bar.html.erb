@@ -1,6 +1,6 @@
 <% if logged_in? -%>
   <p>
     Logged in as <%= h current_user.login %>
-    (<%= link_to "logout", logout_path, { :title => "Logout" } %>)
+    (<%= link_to "sign out", logout_path, { :title => "Logout" } %>)
   </p>  
 <% end -%>

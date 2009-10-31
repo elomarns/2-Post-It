@@ -22,4 +22,13 @@ class ApplicationControllerTest < ActionController::TestCase
     assert_select "form > p > input[type=submit]", :count => 1
     assert_select "form > p > input[type=hidden]", :count => 1
   end
+
+  test "should redirect logged users to home" do
+    login_as :edgard
+
+    get :index
+
+    assert_response :redirect
+    assert_redirected_to home_path
+  end
 end

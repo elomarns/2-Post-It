@@ -9,4 +9,11 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+
+  before_filter :redirect_to_user_home, :only => :index
+
+  private
+  def redirect_to_user_home
+    redirect_to home_path if current_user
+  end
 end

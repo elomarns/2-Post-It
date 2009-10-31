@@ -140,12 +140,22 @@ textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWith
 
 #header p
 {
+  text-align: center;
+}
+
+#header #user_bar
+{
   display: inline;
   font-size: 14px;
   margin: 0;
   position: absolute;
   right: 0px;
   top: 0px;
+}
+
+#header img
+{
+  border: 0;
 }
 
 /*
@@ -287,7 +297,6 @@ form#new_task textarea.LV_invalid_field
 
 div.task p
 {
-  color: #4B4D49;
   line-height: 1.3em;
   margin: 0;
   overflow: hidden;

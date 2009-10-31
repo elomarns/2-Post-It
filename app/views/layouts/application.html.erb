@@ -18,7 +18,9 @@
   </head>
   <body>
     <div id="header">
-      <%= image_tag "logo.png", :alt => "2 Post It", :width => "283", :height => "69" %>
+      <p>
+        <%= link_to_website_home_or_user_home %>
+      </p>
 
       <%= render :partial => "users/user_bar" -%>
     </div>

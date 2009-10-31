@@ -1,5 +1,5 @@
 <% if logged_in? -%>
-  <p>
+  <p id="user_bar">
     Logged in as <%= h current_user.login %>
     (<%= link_to "sign out", logout_path, { :title => "Logout" } %>)
   </p>  

@@ -12,3 +12,8 @@ stop_listening_radiohead:
   user: mgurgel
   description: Stop Listening Radiohead
   done: false
+
+buy_a_macbook:
+  user: elomar
+  description: Buy a MacBook.
+  done: false

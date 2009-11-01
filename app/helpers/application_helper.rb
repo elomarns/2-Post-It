@@ -1,6 +1,6 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
-  # TODO: test the ApplicationHelper
+  # TODO: Test the ApplicationHelper.
 
   def website_home_or_user_home?
     (controller.class == ApplicationController and controller.action_name == "index") or

@@ -12,7 +12,7 @@ class UsersControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  # TODO: test the rendering of sign up page (not only sign up form).
+  # TODO: Test the rendering of entire sign up page (not only sign up form).
 
   test "should show sign up form" do
     get :new
@@ -107,7 +107,7 @@ class UsersControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  # TODO: test the rendering of user home page (not only new task form).
+  # TODO: Test the rendering of entire user home page (not only new task form).
 
   test "should show new task form" do
     login_as :aaron

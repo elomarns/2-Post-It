@@ -10,7 +10,14 @@ class SessionsControllerTest < ActionController::TestCase
     assert_response :success
   end
   
-  # TODO: test the rendering of sign in page (not only sign in form).
+  # TODO: Test the rendering of entire sign in page (not only sign in form).
+
+  test "should show sign in page" do
+    get :new
+
+    assert_select "div#content", :count => 1
+    assert_select "h1", :count => 1
+  end
 
   test "should show sign in form" do
     get :new

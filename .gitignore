@@ -1,4 +1,3 @@
 config/initializers/site_keys.rb
 log/*
-db/*.sqlite3
-config/databse.yml
+config/database.yml

@@ -7,8 +7,10 @@ class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
 
+  # TODO: Test password and password confirmation filtering at logs.
+
   # Scrub sensitive parameters from your log
-  # filter_parameter_logging :password
+  filter_parameter_logging :password, :password_confirmation
 
   before_filter :redirect_to_user_home, :only => :index
 

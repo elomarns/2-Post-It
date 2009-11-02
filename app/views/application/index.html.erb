@@ -55,8 +55,8 @@
   </p>
 
   <p id="sign_up_and_sign_in_links">
-    <a href="/sign_up" title="Sign Up at 2 Post It" id="sign_up_link">Sign up now</a> or
-    <a href="/login" title="Sign In at 2 Post It" id="sign_in_link">Sign in</a>
+    <%= link_to "Sign up now", signup_path, :title => "Sign Up at 2 Post It", :id => "sign_up_link" %> or
+    <%= link_to "Sign in", login_path, :title => "Sign In at 2 Post It", :id => "sign_in_link" %>
   </p>
 </div>
 

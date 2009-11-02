@@ -29,6 +29,16 @@ class TasksControllerTest < ActionController::TestCase
     assert_equal users(:leonardo_bighi), assigns(:task).user
   end
 
+  test "should set task to current user" do
+    login_as :mgurgel
+
+    assert_difference "Task.count" do
+      post :create, :task => { :description => "Sell my Wii and buy a X Box 360.", :user_id => nil }
+    end
+
+    assert_equal users(:mgurgel), assigns(:task).user
+  end
+
   test "should not mark task as done if the user is not the owner" do
     login_as :maria_jose
 

@@ -2,7 +2,7 @@ require 'test_helper'
 
 class ApplicationControllerTest < ActionController::TestCase
 
-  # TODO: Test the layout application.html.erb
+  # TODO: Test the rendering of layout application.html.erb.
   test "should show layout" do
     get :index
 
@@ -26,7 +26,7 @@ class ApplicationControllerTest < ActionController::TestCase
     assert_template "index"
     assert_response :success
   end
-
+  
   # TODO: Test the rendering of entire website index page (not only the sign in form).
 
   test "should show sign in form" do

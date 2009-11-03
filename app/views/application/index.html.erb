@@ -34,7 +34,7 @@
     <% end -%>
   <% end -%>
 
-  <% unless flash[:notice] %>
+  <% if flash[:notice] %>
     <p id="notice_message">
       <%= flash[:notice] %>
     </p>

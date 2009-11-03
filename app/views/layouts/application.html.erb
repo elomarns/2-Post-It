@@ -35,7 +35,7 @@
 
     <%= yield :turn_footer_draggable %>
 
-    <% unless flash[:notice] %>
+    <% if flash[:notice] %>
       <%= javascript_tag visual_effect(:fade, "notice_message", :duration => 5), :defer => "defer" %>
     <% end %>
 

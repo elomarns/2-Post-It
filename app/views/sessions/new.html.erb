@@ -4,7 +4,7 @@
 <% content_for :page_title do -%>Sign In<% end -%>
 
 <div id="content">
-  <% unless flash[:error] %>
+  <% if flash[:error] %>
     <p id="error_message">
       <%= flash[:error] %>
     </p>

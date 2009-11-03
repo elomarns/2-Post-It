@@ -4,7 +4,7 @@
 <% content_for :page_title do -%>Home<% end -%>
 
 <div id="content" class="user_home">
-  <% unless flash[:notice] %>
+  <% if flash[:notice] %>
     <p id="notice_message">
       <%= flash[:notice] %>
     </p>
@@ -56,15 +56,15 @@
                 if(obj.form)
                   if(document.getElementById("task_description").value.length <= 90 && document.getElementById("task_description").value != "")
                 {
-<%= remote_function(:url => tasks_path, :method => :post, :with => "Form.serialize(\"new_task\")") %>
-          document.getElementById("task_description").value = "New Task";
-          $('task_description').blur();
-        }
+                  <%= remote_function(:url => tasks_path, :method => :post, :with => "Form.serialize(\"new_task\")") %>
+                  document.getElementById("task_description").value = "New Task";
+                  $('task_description').blur();
+                }
 
-        stopEvent(e);
-      }
-    }
-  }
+                stopEvent(e);
+              }
+            }
+          }
         </script>
       </div>
     </li>

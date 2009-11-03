@@ -275,7 +275,7 @@ div.task:hover
 
 div.task#new_task_post_it:hover
 {
-  cursor: auto;
+  cursor: move;
 }
 
 textarea#task_description

@@ -138,6 +138,11 @@ textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active, div.fieldWith
   position: relative;
 }
 
+#logo:hover, #footer:hover
+{
+  cursor: move;
+}
+
 #header p
 {
   text-align: center;

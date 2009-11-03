@@ -25,13 +25,15 @@
       <%= render :partial => "users/user_bar" -%>
     </div>
 
-    <%= yield %>
+    <%= yield -%>
 
     <p id="footer">
       Created by
       <%= link_to "Elomar Nascimento dos Santos", "http://www.elomarns.com/blog/", :title => "My Personal Blog" %>
       (<%= link_to "@elomarns", "http://www.twitter.com/elomarns", :title => "My Page on Twitter" %>)
     </p>
+
+    <%= yield :turn_footer_draggable %>
 
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

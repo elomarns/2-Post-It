@@ -31,5 +31,4 @@ ActiveRecord::Schema.define(:version => 20091024022959) do
   end
 
   add_index "users", ["login"], :name => "index_users_on_login", :unique => true
-
 end

@@ -2,6 +2,7 @@ class SessionsController < ApplicationController
   before_filter :login_required, :only => :destroy
   
   def new
+    @remember_me = true
   end
 
   def create

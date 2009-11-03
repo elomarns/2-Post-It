@@ -5,3 +5,7 @@ Login/Logout
 Add Task
 Mark Tast as Done
 View Unfinished Tasks
+
+Version 1.1
+
+Contact

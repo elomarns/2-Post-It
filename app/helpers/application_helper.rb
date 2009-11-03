@@ -10,8 +10,16 @@ module ApplicationHelper
     current_user ? "Home" : "2 Post It"
   end
 
+  def image_tag_to_logo
+    if controller.class == UsersController and controller.action_name == "home"
+      image_tag "logo.png", :alt => "2 Post It", :size => "283x69", :id => "logo"
+    else
+      image_tag "logo.png", :alt => "2 Post It", :size => "283x69"
+    end
+  end
+  
   def link_to_website_home_or_user_home
-    link_to_unless(website_home_or_user_home?, image_tag("logo.png", :alt => "2 Post It",
-      :size => "283x69", :id => "logo"), root_path, :title => website_home_title_or_user_home_title)
+    link_to_unless(website_home_or_user_home?, image_tag_to_logo,
+      root_path, :title => website_home_title_or_user_home_title)
   end
 end

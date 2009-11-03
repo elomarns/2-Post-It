@@ -35,6 +35,10 @@
 
     <%= yield :turn_footer_draggable %>
 
+    <% unless flash[:notice] %>
+      <%= javascript_tag visual_effect(:fade, "notice_message", :duration => 5), :defer => "defer" %>
+    <% end %>
+
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       

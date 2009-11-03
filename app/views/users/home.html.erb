@@ -4,7 +4,7 @@
 <% content_for :page_title do -%>Home<% end -%>
 
 <div id="content" class="user_home">
-  <% unless flash[:notice].blank? %>
+  <% unless flash[:notice] %>
     <p id="notice_message">
       <%= flash[:notice] %>
     </p>
@@ -73,10 +73,6 @@
       <%= render :partial => task %>
     <% end %>
   </ul>
-
-  <% unless flash[:notice].blank? %>
-    <%= javascript_tag visual_effect(:fade, "notice_message", :duration => 5) %>
-  <% end %>
 
   <%= draggable_element "logo" %>
   <%= draggable_element "new_task_post_it" %>

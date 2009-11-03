@@ -34,7 +34,7 @@
     <% end -%>
   <% end -%>
 
-  <% unless flash[:notice].blank? %>
+  <% unless flash[:notice] %>
     <p id="notice_message">
       <%= flash[:notice] %>
     </p>
@@ -59,7 +59,3 @@
     <%= link_to "Sign in", login_path, :title => "Sign In at 2 Post It", :id => "sign_in_link" %>
   </p>
 </div>
-
-<% unless flash[:notice].blank? %>
-  <%= javascript_tag visual_effect(:fade, "notice_message", :duration => 5) %>
-<% end %>

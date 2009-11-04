@@ -1,6 +1,18 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
   # TODO: Test the ApplicationHelper.
+  def page_description(description)
+    content_for(:page_description) { description }
+  end
+
+  def page_keyword(keyword)
+    content_for(:page_keyword) { keyword }
+  end
+
+  def page_title(page_title)
+    content_for(:page_title) { page_title }
+  end
+  
   def website_home_or_user_home?
     (controller.class == ApplicationController and controller.action_name == "index") or
       (controller.class == UsersController and controller.action_name == "home")

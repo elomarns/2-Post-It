@@ -1,7 +1,6 @@
-<% content_for :page_description do -%>Your home at 2 Post It, where you can view all your unfinished tasks as post its, and add new tasks.<% end -%>
-<% content_for :page_keyword do -%>home<% end -%>
-
-<% content_for :page_title do -%>Home<% end -%>
+<%= page_description "Your home at 2 Post It, where you can view all your unfinished tasks as post its, and add new tasks." %>
+<%= page_keyword "home" %>
+<%= page_title "Home" %>
 
 <div id="content" class="user_home">
   <% if flash[:notice] %>
